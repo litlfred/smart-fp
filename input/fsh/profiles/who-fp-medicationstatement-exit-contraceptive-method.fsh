@@ -9,7 +9,5 @@ Description: "Contraceptive method at exit reported."
 * . ^short = "Method at exit - reported"
 * . ^mustSupport = false
 * medication[x] only CodeableConcept
-* medication[x] ^min = 0
-* medication[x] ^max = "*"
 * medication[x] MS
 * medication[x] from $medicationbirthcontrolmethods-values (required)

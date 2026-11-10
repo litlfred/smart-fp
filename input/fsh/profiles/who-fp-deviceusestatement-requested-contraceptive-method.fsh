@@ -9,6 +9,6 @@ Description: "The first pick of method desired by the client, prior to medical e
 * . ^short = "Method requested"
 * . ^comment = "Required for MEC logic"
 * . ^mustSupport = false
-* device.type 0..1 MS
+* device.type MS
 * device.type from $devicebirthcontrolmethods-values (required)
 * device.type ^code = $icd-10#Z30.9 "Device-based Contraception Method requested (ICD-10-WHO)"

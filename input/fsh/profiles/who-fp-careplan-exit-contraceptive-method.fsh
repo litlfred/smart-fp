@@ -9,8 +9,6 @@ Description: "How the client will receive the method, including onsite or if fol
 * . ^short = "How method is being provided"
 * . ^comment = "SNOMED codes are from IHE FP content"
 * . ^mustSupport = false
-* activity.detail.code ^min = 0
-* activity.detail.code ^max = "*"
 * activity.detail.code MS
 * activity.detail.code from $careplanbirthcontrolmethods-values (required)
 * activity.detail.extension contains $deliverymethod named deliveryMethod 0..1

@@ -8,7 +8,5 @@ Description: "Contraceptive method at exit reported."
 * ^experimental = false
 * . ^short = "Method at exit - reported"
 * . ^mustSupport = false
-* code ^min = 0
-* code ^max = "*"
 * code MS
 * code from $procedurebirthcontrolmethods-values (required)

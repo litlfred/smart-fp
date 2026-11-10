@@ -6,7 +6,5 @@ Title: "WHO-FP Observation (Medical Eligibility)"
 * ^status = #draft
 * ^experimental = false
 * . ^mustSupport = false
-* code ^min = 0
-* code ^max = "1"
 * code MS
 * code from $medicaleligibilityobservations-values (required)

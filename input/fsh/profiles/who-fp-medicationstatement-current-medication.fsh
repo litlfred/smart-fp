@@ -9,7 +9,5 @@ Description: "Determine if client is taking certain anticonvulsants, antimicrobi
 * . ^short = "Medications"
 * . ^mustSupport = false
 * medication[x] only CodeableConcept
-* medication[x] ^min = 0
-* medication[x] ^max = "*"
 * medication[x] MS
 * medication[x] from $current-medications-values (required)
