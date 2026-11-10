@@ -22,10 +22,18 @@
     {
       "@type": "schema:MediaObject",
       "schema:contentUrl": {
-        "@id": "https://raw.githubusercontent.com/litlfred/smart-fp/9c79ce22a45086d896fd2d0005b14ec9bdf8a05e/resources/StructureDefinition/who-fp-observation-medical-eligibility-number--a6fd4da5.json"
+        "@id": "../StructureDefinition-who-fp-observation-medical-eligibility-number.json"
       },
       "schema:encodingFormat": "application/fhir+json",
       "dcterms:source": "local"
+    },
+    {
+      "@type": "schema:MediaObject",
+      "schema:contentUrl": {
+        "@id": "https://raw.githubusercontent.com/litlfred/smart-fp/9c79ce22a45086d896fd2d0005b14ec9bdf8a05e/resources/StructureDefinition/who-fp-observation-medical-eligibility-number--a6fd4da5.json"
+      },
+      "schema:encodingFormat": "application/fhir+json",
+      "dcterms:source": "mirror"
     }
   ],
   "prov:wasGeneratedBy": {

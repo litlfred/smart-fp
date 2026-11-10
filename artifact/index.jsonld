@@ -26,6 +26,9 @@
       "dcterms:type": "Terminology: Code Systems",
       "schema:sameAs": {
         "@id": "http://who.int/cg/CodeSystem/extended-content-codes"
+      },
+      "schema:contentUrl": {
+        "@id": "../CodeSystem-extended-content-codes.json"
       }
     },
     {
@@ -38,6 +41,9 @@
       "dcterms:type": "Structures: Extension Definitions",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/deliverymethod"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-deliverymethod.json"
       }
     },
     {
@@ -49,6 +55,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-backup-contraceptive-method"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-careplan-backup-contraceptive-method.json"
       }
     },
     {
@@ -60,6 +69,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-exit-contraceptive-method"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-careplan-exit-contraceptive-method.json"
       }
     },
     {
@@ -70,6 +82,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-recommendation"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-careplan-recommendation.json"
       }
     },
     {
@@ -81,6 +96,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-requested-contraceptive-method"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-careplan-requested-contraceptive-method.json"
       }
     },
     {
@@ -91,6 +109,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-condition-medical-eligibility"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-condition-medical-eligibility.json"
       }
     },
     {
@@ -102,6 +123,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-consent"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-consent.json"
       }
     },
     {
@@ -113,6 +137,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-device-contraceptive-method"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-device-contraceptive-method.json"
       }
     },
     {
@@ -124,6 +151,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-deviceusestatement-exit-contraceptive-method"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method.json"
       }
     },
     {
@@ -135,6 +165,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-deviceusestatement-requested-contraceptive-method"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-deviceusestatement-requested-contraceptive-method.json"
       }
     },
     {
@@ -145,6 +178,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-encounter"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-encounter.json"
       }
     },
     {
@@ -156,6 +192,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-encounter-contraception-issues-and-concerns"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-encounter-contraception-issues-and-concerns.json"
       }
     },
     {
@@ -167,6 +206,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-healthcareservice"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-healthcareservice.json"
       }
     },
     {
@@ -178,6 +220,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-medicationstatement-current-medication"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-medicationstatement-current-medication.json"
       }
     },
     {
@@ -189,6 +234,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-medicationstatement-exit-contraceptive-method"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-medicationstatement-exit-contraceptive-method.json"
       }
     },
     {
@@ -200,6 +248,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-medicationstatement-requested-contraceptive-method"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-medicationstatement-requested-contraceptive-method.json"
       }
     },
     {
@@ -210,6 +261,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-breastfeeding-status"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-observation-breastfeeding-status.json"
       }
     },
     {
@@ -221,6 +275,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-days-since-last-normal-menses"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-observation-days-since-last-normal-menses.json"
       }
     },
     {
@@ -231,6 +288,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-intercourse-since-last-normal-menses"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-observation-intercourse-since-last-normal-menses.json"
       }
     },
     {
@@ -241,6 +301,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-medical-eligibility"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-observation-medical-eligibility.json"
       }
     },
     {
@@ -252,6 +315,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-medical-eligibility-number"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-observation-medical-eligibility-number.json"
       }
     },
     {
@@ -263,6 +329,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-medical-eligibility-text"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-observation-medical-eligibility-text.json"
       }
     },
     {
@@ -274,6 +343,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-missed-or-late-menses"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-observation-missed-or-late-menses.json"
       }
     },
     {
@@ -285,6 +357,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-pregnancy-intention"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-observation-pregnancy-intention.json"
       }
     },
     {
@@ -296,6 +371,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-reason-for-no-contraceptive-method-at-exit"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-observation-reason-for-no-contraceptive-method-at-exit.json"
       }
     },
     {
@@ -307,6 +385,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-reason-for-stopping-contraception"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-observation-reason-for-stopping-contraception.json"
       }
     },
     {
@@ -318,6 +399,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-smoking-status"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-observation-smoking-status.json"
       }
     },
     {
@@ -329,6 +413,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-test-results"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-observation-test-results.json"
       }
     },
     {
@@ -340,6 +427,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-procedure-exit-contraceptive-method"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-procedure-exit-contraceptive-method.json"
       }
     },
     {
@@ -351,6 +441,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-procedure-requested-contraceptive-method"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-procedure-requested-contraceptive-method.json"
       }
     },
     {
@@ -362,6 +455,9 @@
       "dcterms:type": "Structures: Resource Profiles",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-procedure-service-provided"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureDefinition-who-fp-procedure-service-provided.json"
       }
     },
     {
@@ -373,6 +469,9 @@
       "dcterms:type": "Terminology: Value Sets",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/ValueSet/backupcontraceptivemethod-values"
+      },
+      "schema:contentUrl": {
+        "@id": "../ValueSet-backupcontraceptivemethod-values.json"
       }
     },
     {
@@ -384,6 +483,9 @@
       "dcterms:type": "Terminology: Value Sets",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/ValueSet/breastfeeding-status-values"
+      },
+      "schema:contentUrl": {
+        "@id": "../ValueSet-breastfeeding-status-values.json"
       }
     },
     {
@@ -395,6 +497,9 @@
       "dcterms:type": "Terminology: Value Sets",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/ValueSet/cigarettes-smoked-per-day-values"
+      },
+      "schema:contentUrl": {
+        "@id": "../ValueSet-cigarettes-smoked-per-day-values.json"
       }
     },
     {
@@ -406,6 +511,9 @@
       "dcterms:type": "Terminology: Value Sets",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/ValueSet/contraception-issues-and-concerns-values"
+      },
+      "schema:contentUrl": {
+        "@id": "../ValueSet-contraception-issues-and-concerns-values.json"
       }
     },
     {
@@ -417,6 +525,9 @@
       "dcterms:type": "Terminology: Value Sets",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/ValueSet/contraceptivedeliverymethod-values"
+      },
+      "schema:contentUrl": {
+        "@id": "../ValueSet-contraceptivedeliverymethod-values.json"
       }
     },
     {
@@ -428,6 +539,9 @@
       "dcterms:type": "Terminology: Value Sets",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/ValueSet/current-medications-values"
+      },
+      "schema:contentUrl": {
+        "@id": "../ValueSet-current-medications-values.json"
       }
     },
     {
@@ -439,6 +553,9 @@
       "dcterms:type": "Terminology: Value Sets",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/ValueSet/fp-recommended-care-values"
+      },
+      "schema:contentUrl": {
+        "@id": "../ValueSet-fp-recommended-care-values.json"
       }
     },
     {
@@ -450,6 +567,9 @@
       "dcterms:type": "Terminology: Value Sets",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/ValueSet/iud-insertion-status-values"
+      },
+      "schema:contentUrl": {
+        "@id": "../ValueSet-iud-insertion-status-values.json"
       }
     },
     {
@@ -461,6 +581,9 @@
       "dcterms:type": "Terminology: Value Sets",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/ValueSet/medical-eligibility-text-classification-values"
+      },
+      "schema:contentUrl": {
+        "@id": "../ValueSet-medical-eligibility-text-classification-values.json"
       }
     },
     {
@@ -472,6 +595,9 @@
       "dcterms:type": "Terminology: Value Sets",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilityconditions-values"
+      },
+      "schema:contentUrl": {
+        "@id": "../ValueSet-medicaleligibilityconditions-values.json"
       }
     },
     {
@@ -483,6 +609,9 @@
       "dcterms:type": "Terminology: Value Sets",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilitynumber-values"
+      },
+      "schema:contentUrl": {
+        "@id": "../ValueSet-medicaleligibilitynumber-values.json"
       }
     },
     {
@@ -494,6 +623,9 @@
       "dcterms:type": "Terminology: Value Sets",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilityobservations-values"
+      },
+      "schema:contentUrl": {
+        "@id": "../ValueSet-medicaleligibilityobservations-values.json"
       }
     },
     {
@@ -505,6 +637,9 @@
       "dcterms:type": "Terminology: Value Sets",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/ValueSet/pregnancy-intention-values"
+      },
+      "schema:contentUrl": {
+        "@id": "../ValueSet-pregnancy-intention-values.json"
       }
     },
     {
@@ -516,6 +651,9 @@
       "dcterms:type": "Terminology: Value Sets",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-family-planning-visit-values"
+      },
+      "schema:contentUrl": {
+        "@id": "../ValueSet-reason-for-family-planning-visit-values.json"
       }
     },
     {
@@ -527,6 +665,9 @@
       "dcterms:type": "Terminology: Value Sets",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-no-method-at-exit-values"
+      },
+      "schema:contentUrl": {
+        "@id": "../ValueSet-reason-for-no-method-at-exit-values.json"
       }
     },
     {
@@ -538,6 +679,9 @@
       "dcterms:description": "This implementation guide defines data element profiles for the World Health Organization (WHO) Family Planning smart guideline.",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/ImplementationGuide/who.fhir.fp-cds"
+      },
+      "schema:contentUrl": {
+        "@id": "../ImplementationGuide-who.fhir.fp-cds.json"
       }
     }
   ]

@@ -7,9 +7,9 @@
   "source": {
     "repo": "litlfred/smart-fp",
     "ref": "master",
-    "commit": "88a36ecea83fc1d8b4994ac530b9a26947dfc38a"
+    "commit": "8a92b469c937109372d5d4b2899d8ec88b7472c3"
   },
-  "builtAt": "2026-11-10T22:52:47.994Z",
+  "builtAt": "2026-11-10T23:39:36.409Z",
   "ast": {
     "commit": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
     "verdict": "valid",
