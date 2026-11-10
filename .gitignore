@@ -14,3 +14,5 @@ template/
 /bootstrap/
 /bootstrap-tools/
 # END index mounts
+node_modules/
+fsh-generated/
