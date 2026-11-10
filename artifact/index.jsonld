@@ -21,6 +21,7 @@
       "@type": "fhir:CodeSystem",
       "dcterms:identifier": "CodeSystem/extended-content-codes",
       "dcterms:title": "Extended Codes CodeSystem codes",
+      "schema:name": "extended-content_codes",
       "dcterms:description": "Set of codes identified as being needed but not found in existing Code Systems",
       "dcterms:type": "Terminology: Code Systems",
       "schema:sameAs": {
@@ -32,6 +33,7 @@
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/deliverymethod",
       "dcterms:title": "How contraceptive method is being provided",
+      "schema:name": "deliveryMethod",
       "dcterms:description": "How the client will receive the method, including onsite or if follow up is required. ",
       "dcterms:type": "Structures: Extension Definitions",
       "schema:sameAs": {
@@ -532,6 +534,7 @@
       "@type": "fhir:ImplementationGuide",
       "dcterms:identifier": "ImplementationGuide/who.fhir.fp-cds",
       "dcterms:title": "WHO Family Planning Implementation Guide",
+      "schema:name": "FPCDS",
       "dcterms:description": "This implementation guide defines data element profiles for the World Health Organization (WHO) Family Planning smart guideline.",
       "schema:sameAs": {
         "@id": "http://fhir.org/guides/who/fp-cds/ImplementationGuide/who.fhir.fp-cds"
