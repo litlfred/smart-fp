@@ -1,0 +1,546 @@
+{
+  "$schema" : "ig-ast-dependencies/v1",
+  "authority" : "cache",
+  "edges" : 60,
+  "resolvedInIg" : 13,
+  "dependencies" : [{
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/deliverymethod|0.2.0",
+    "kind" : "binds to",
+    "target" : "http://fhir.org/guides/who/fp-cds/ValueSet/contraceptivedeliverymethod-values",
+    "targetVersion" : "0.2.0",
+    "resolved" : "http://fhir.org/guides/who/fp-cds/ValueSet/contraceptivedeliverymethod-values|0.2.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/deliverymethod|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Extension",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-backup-contraceptive-method|0.2.0",
+    "kind" : "binds to",
+    "target" : "http://fhir.org/guides/who/fp-cds/ValueSet/backupcontraceptivemethod-values",
+    "targetVersion" : "0.2.0",
+    "resolved" : "http://fhir.org/guides/who/fp-cds/ValueSet/backupcontraceptivemethod-values|0.2.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-backup-contraceptive-method|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/CarePlan",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-exit-contraceptive-method|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/CarePlan",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-exit-contraceptive-method|0.2.0",
+    "kind" : "uses",
+    "target" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/deliverymethod",
+    "targetVersion" : "0.2.0",
+    "resolved" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/deliverymethod|0.2.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-recommendation|0.2.0",
+    "kind" : "binds to",
+    "target" : "http://fhir.org/guides/who/fp-cds/ValueSet/fp-recommended-care-values",
+    "targetVersion" : "0.2.0",
+    "resolved" : "http://fhir.org/guides/who/fp-cds/ValueSet/fp-recommended-care-values|0.2.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-recommendation|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/CarePlan",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-requested-contraceptive-method|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/CarePlan",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-condition-medical-eligibility|0.2.0",
+    "kind" : "binds to",
+    "target" : "http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilityconditions-values",
+    "targetVersion" : "0.2.0",
+    "resolved" : "http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilityconditions-values|0.2.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-condition-medical-eligibility|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Condition",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-consent|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Consent",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-device-contraceptive-method|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Device",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-deviceusestatement-exit-contraceptive-method|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-deviceusestatement-exit-contraceptive-method|0.2.0",
+    "kind" : "refers to",
+    "target" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-device-contraceptive-method",
+    "targetVersion" : "0.2.0",
+    "resolved" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-device-contraceptive-method|0.2.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-deviceusestatement-requested-contraceptive-method|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-deviceusestatement-requested-contraceptive-method|0.2.0",
+    "kind" : "refers to",
+    "target" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-device-contraceptive-method",
+    "targetVersion" : "0.2.0",
+    "resolved" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-device-contraceptive-method|0.2.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-encounter-contraception-issues-and-concerns|0.2.0",
+    "kind" : "binds to",
+    "target" : "http://fhir.org/guides/who/fp-cds/ValueSet/contraception-issues-and-concerns-values",
+    "targetVersion" : "0.2.0",
+    "resolved" : "http://fhir.org/guides/who/fp-cds/ValueSet/contraception-issues-and-concerns-values|0.2.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-encounter-contraception-issues-and-concerns|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Encounter",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-encounter|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Encounter",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-healthcareservice|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/HealthcareService",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-medicationstatement-current-medication|0.2.0",
+    "kind" : "binds to",
+    "target" : "http://fhir.org/guides/who/fp-cds/ValueSet/current-medications-values",
+    "targetVersion" : "0.2.0",
+    "resolved" : "http://fhir.org/guides/who/fp-cds/ValueSet/current-medications-values|0.2.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-medicationstatement-current-medication|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/MedicationStatement",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-medicationstatement-exit-contraceptive-method|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/MedicationStatement",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-medicationstatement-requested-contraceptive-method|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/MedicationStatement",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-breastfeeding-status|0.2.0",
+    "kind" : "binds to",
+    "target" : "http://fhir.org/guides/who/fp-cds/ValueSet/breastfeeding-status-values",
+    "targetVersion" : "0.2.0",
+    "resolved" : "http://fhir.org/guides/who/fp-cds/ValueSet/breastfeeding-status-values|0.2.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-breastfeeding-status|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Observation",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-days-since-last-normal-menses|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Observation",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-intercourse-since-last-normal-menses|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Observation",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-medical-eligibility-number|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Observation",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-medical-eligibility-text|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Observation",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-medical-eligibility|0.2.0",
+    "kind" : "binds to",
+    "target" : "http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilityobservations-values",
+    "targetVersion" : "0.2.0",
+    "resolved" : "http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilityobservations-values|0.2.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-medical-eligibility|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Observation",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-missed-or-late-menses|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Observation",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-pregnancy-intention|0.2.0",
+    "kind" : "binds to",
+    "target" : "http://fhir.org/guides/who/fp-cds/ValueSet/pregnancy-intention-values",
+    "targetVersion" : "0.2.0",
+    "resolved" : "http://fhir.org/guides/who/fp-cds/ValueSet/pregnancy-intention-values|0.2.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-pregnancy-intention|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Observation",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-reason-for-no-contraceptive-method-at-exit|0.2.0",
+    "kind" : "binds to",
+    "target" : "http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-no-method-at-exit-values",
+    "targetVersion" : "0.2.0",
+    "resolved" : "http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-no-method-at-exit-values|0.2.0",
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-reason-for-no-contraceptive-method-at-exit|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Observation",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-reason-for-stopping-contraception|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Observation",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-smoking-status|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Observation",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-test-results|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Observation",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-procedure-exit-contraceptive-method|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Procedure",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-procedure-requested-contraceptive-method|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Procedure",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-procedure-service-provided|0.2.0",
+    "kind" : "derives from",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Procedure",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/ValueSet/backupcontraceptivemethod-values|0.2.0",
+    "kind" : "includes from",
+    "target" : "http://loinc.org",
+    "targetVersion" : "2.83",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/ValueSet/backupcontraceptivemethod-values|0.2.0",
+    "kind" : "includes from",
+    "target" : "http://snomed.info/sct",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/ValueSet/breastfeeding-status-values|0.2.0",
+    "kind" : "includes from",
+    "target" : "http://loinc.org",
+    "targetVersion" : "2.83",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/ValueSet/breastfeeding-status-values|0.2.0",
+    "kind" : "includes from",
+    "target" : "http://snomed.info/sct",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/ValueSet/contraception-issues-and-concerns-values|0.2.0",
+    "kind" : "includes from",
+    "target" : "http://hl7.org/fhir/sid/icd-10",
+    "targetVersion" : "2019-covid-expanded",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/ValueSet/contraception-issues-and-concerns-values|0.2.0",
+    "kind" : "includes from",
+    "target" : "http://loinc.org",
+    "targetVersion" : "2.83",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/ValueSet/contraception-issues-and-concerns-values|0.2.0",
+    "kind" : "includes from",
+    "target" : "http://snomed.info/sct",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/ValueSet/contraceptivedeliverymethod-values|0.2.0",
+    "kind" : "includes from",
+    "target" : "http://snomed.info/sct",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/ValueSet/iud-insertion-status-values|0.2.0",
+    "kind" : "includes from",
+    "target" : "http://hl7.org/fhir/event-status",
+    "targetVersion" : "4.0.1",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/ValueSet/pregnancy-intention-values|0.2.0",
+    "kind" : "includes from",
+    "target" : "http://loinc.org",
+    "targetVersion" : "2.83",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-family-planning-visit-values|0.2.0",
+    "kind" : "includes from",
+    "target" : "http://hl7.org/fhir/sid/icd-10",
+    "targetVersion" : "2019-covid-expanded",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-family-planning-visit-values|0.2.0",
+    "kind" : "includes from",
+    "target" : "http://loinc.org",
+    "targetVersion" : "2.83",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-family-planning-visit-values|0.2.0",
+    "kind" : "includes from",
+    "target" : "http://snomed.info/sct",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-no-method-at-exit-values|0.2.0",
+    "kind" : "includes from",
+    "target" : "http://hl7.org/fhir/sid/icd-10",
+    "targetVersion" : "2019-covid-expanded",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-no-method-at-exit-values|0.2.0",
+    "kind" : "includes from",
+    "target" : "http://loinc.org",
+    "targetVersion" : "2.83",
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  },
+  {
+    "source" : "http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-no-method-at-exit-values|0.2.0",
+    "kind" : "includes from",
+    "target" : "http://snomed.info/sct",
+    "targetVersion" : null,
+    "resolved" : null,
+    "path" : null,
+    "origin" : "publisher"
+  }]
+}

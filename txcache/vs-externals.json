@@ -1,0 +1,10 @@
+{
+  "http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/careplanbirthcontrolmethods-values" : null,
+  "http://who.int/cg/CodeSystem/extended-content" : null,
+  "http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/devicebirthcontrolmethods-values" : null,
+  "http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/medicationbirthcontrolmethods-values" : null,
+  "http://hl7.org/fhir/sid/ciel" : null,
+  "http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/nobirthcontrolmethods-values" : null,
+  "http://hl7.org/fhir/sid/icd-11" : null,
+  "http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/procedurebirthcontrolmethods-values" : null
+}

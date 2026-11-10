@@ -1,0 +1,895 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "N91.2",
+        "display" : "Amenorrhoea"
+      },
+      {
+        "code" : "N93.9",
+        "display" : "Irregular bleeding"
+      },
+      {
+        "code" : "Z32.0",
+        "display" : "Client suspects pregnancy"
+      },
+      {
+        "code" : "N89.8",
+        "display" : "Spotting or light bleeding / Unexplained vaginal bleeding"
+      },
+      {
+        "code" : "N93",
+        "display" : "Heavy or prolonged bleeding"
+      },
+      {
+        "code" : "F39",
+        "display" : "Mood changes after start of method"
+      },
+      {
+        "code" : "N99.89",
+        "display" : "Pain lasting for months"
+      },
+      {
+        "code" : "R10.30",
+        "display" : "Severe pain in lower abdomen"
+      },
+      {
+        "code" : "T81.4",
+        "display" : "Abscess"
+      },
+      {
+        "code" : "B37.3",
+        "display" : "Candidiasis"
+      },
+      {
+        "code" : "N76.0",
+        "display" : "Bacterial vaginosis"
+      },
+      {
+        "code" : "N77.1",
+        "display" : "Bacterial vaginosis"
+      },
+      {
+        "code" : "A48.3",
+        "display" : "Toxic shock syndrome"
+      },
+      {
+        "code" : "N39",
+        "display" : "Urinary tract infection"
+      },
+      {
+        "code" : "Z87.440",
+        "display" : "Urinary tract infection"
+      },
+      {
+        "code" : "N98.9",
+        "display" : "Irritation"
+      },
+      {
+        "code" : "Z88.8",
+        "display" : "Allergic reaction"
+      },
+      {
+        "code" : "L70.9",
+        "display" : "Acne"
+      },
+      {
+        "code" : "G44.40",
+        "display" : "Headaches"
+      },
+      {
+        "code" : "R11.0",
+        "display" : "Nausea"
+      },
+      {
+        "code" : "R42",
+        "display" : "Dizziness"
+      }]
+    }]
+  }
+}}####
+e: {
+  "source" : tx.fhir.org,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:887a603a-791b-4b6a-9baa-749ef23f6be9",
+    "timestamp" : "2026-11-10T20:33:41.374Z",
+    "total" : 16,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "includeDefinition",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://hl7.org/fhir/sid/icd-10|2019-covid-expanded"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N91.2",
+      "display" : "Amenorrhoea, unspecified"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N93.9",
+      "display" : "Abnormal uterine and vaginal bleeding, unspecified"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "Z32.0",
+      "display" : "Pregnancy, not (yet) confirmed"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N89.8",
+      "display" : "Other specified noninflammatory disorders of vagina"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N93",
+      "display" : "Other abnormal uterine and vaginal bleeding"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "F39",
+      "display" : "Unspecified mood [affective] disorder"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "T81.4",
+      "display" : "Infection following a procedure, not elsewhere classified"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "B37.3",
+      "display" : "Candidiasis of vulva and vagina[N77.1]"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N76.0",
+      "display" : "Acute vaginitis"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N77.1",
+      "display" : "Vaginitis, vulvitis and vulvovaginitis in infectious and parasitic diseases classified elsewhere"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A48.3",
+      "display" : "Toxic shock syndrome"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N39",
+      "display" : "Other disorders of urinary system"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N98.9",
+      "display" : "Complication associated with artificial fertilization, unspecified"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "Z88.8",
+      "display" : "Personal history of allergy to other drugs, medicaments and biological substances"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "L70.9",
+      "display" : "Acne, unspecified"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "R42",
+      "display" : "Dizziness and giddiness"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "Z30.0",
+        "display" : "Contraception counseling"
+      },
+      {
+        "code" : "Z30.01",
+        "display" : "Starting contraception"
+      },
+      {
+        "code" : "Z30",
+        "display" : "Contraceptive continuation"
+      },
+      {
+        "code" : "Z30.012",
+        "display" : "Emergency contraception"
+      },
+      {
+        "code" : "Z30.40",
+        "display" : "Contraception Issues and concerns"
+      },
+      {
+        "code" : "Z30.46",
+        "display" : "Implant removal"
+      },
+      {
+        "code" : "Z30.432",
+        "display" : "IUD Removal"
+      }]
+    }]
+  }
+}}####
+e: {
+  "source" : tx.fhir.org,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:929e021f-34ce-47f9-9baf-830929a2d947",
+    "timestamp" : "2026-11-10T20:33:43.380Z",
+    "total" : 2,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "includeDefinition",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://hl7.org/fhir/sid/icd-10|2019-covid-expanded"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "Z30.0",
+      "display" : "General counselling and advice on contraception"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "Z30",
+      "display" : "Contraceptive management"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "Z76.89",
+        "display" : "Out of stock"
+      },
+      {
+        "code" : "Z31.9",
+        "display" : "Sterile for non-contraceptive reasons"
+      }]
+    }]
+  }
+}}####
+e: {
+  "source" : tx.fhir.org,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:cf40fb9b-c722-489d-bca9-3f15e1460b07",
+    "timestamp" : "2026-11-10T20:33:44.194Z",
+    "total" : 1,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "includeDefinition",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://hl7.org/fhir/sid/icd-10|2019-covid-expanded"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "Z31.9",
+      "display" : "Procreative management, unspecified"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N91.2",
+  "display" : "Amenorrhoea"
+}, "valueSet" :null, "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[http://fhir.org/guides/who/fp-cds/ValueSet/contraception-issues-and-concerns-values|0.2.0]", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "Amenorrhoea, unspecified",
+  "code" : "N91.2",
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "version" : "2019-covid-expanded",
+  "severity" : "warning",
+  "error" : "Wrong Display Name 'Amenorrhoea' for http://hl7.org/fhir/sid/icd-10#N91.2. Valid display is 'Amenorrhoea, unspecified' (for the language(s) 'en-US')",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n84ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Validate \"[http://hl7.org/fhir/sid/icd-10#N91.2 (\"Amenorrhoea\")]\"\n84ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Check \"http://hl7.org/fhir/sid/icd-10#N91.2\"\n84ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: CodeSystem found: http://hl7.org/fhir/sid/icd-10|2019-covid-expanded for http://hl7.org/fhir/sid/icd-10|2019-covid-expanded\n84ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: check code in (http://hl7.org/fhir/sid/icd-10) at Coding\n84ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Code \"N91.2\" found in http://hl7.org/fhir/sid/icd-10|2019-covid-expanded",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "Display_Name_for__should_be_one_of__instead_of"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "warning",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "Wrong Display Name 'Amenorrhoea' for http://hl7.org/fhir/sid/icd-10#N91.2. Valid display is 'Amenorrhoea, unspecified' (for the language(s) 'en-US')"
+    },
+    "expression" : ["Coding.display"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "Z30.0",
+  "display" : "Contraception counseling"
+}, "valueSet" :null, "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-family-planning-visit-values|0.2.0]", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "General counselling and advice on contraception",
+  "code" : "Z30.0",
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "version" : "2019-covid-expanded",
+  "severity" : "warning",
+  "error" : "Wrong Display Name 'Contraception counseling' for http://hl7.org/fhir/sid/icd-10#Z30.0. Valid display is 'General counselling and advice on contraception' (for the language(s) 'en-US')",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n110ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Validate \"[http://hl7.org/fhir/sid/icd-10#Z30.0 (\"Contraception counseling\")]\"\n110ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Check \"http://hl7.org/fhir/sid/icd-10#Z30.0\"\n111ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: CodeSystem found: http://hl7.org/fhir/sid/icd-10|2019-covid-expanded for http://hl7.org/fhir/sid/icd-10|2019-covid-expanded\n111ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: check code in (http://hl7.org/fhir/sid/icd-10) at Coding\n111ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Code \"Z30.0\" found in http://hl7.org/fhir/sid/icd-10|2019-covid-expanded",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "Display_Name_for__should_be_one_of__instead_of"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "warning",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "Wrong Display Name 'Contraception counseling' for http://hl7.org/fhir/sid/icd-10#Z30.0. Valid display is 'General counselling and advice on contraception' (for the language(s) 'en-US')"
+    },
+    "expression" : ["Coding.display"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "Z76.89",
+  "display" : "Out of stock"
+}, "valueSet" :null, "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-no-method-at-exit-values|0.2.0]", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "code" : "Z76.89",
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "severity" : "error",
+  "error" : "Unknown code 'Z76.89' in the CodeSystem 'http://hl7.org/fhir/sid/icd-10' version '2019-covid-expanded'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n96ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Validate \"[http://hl7.org/fhir/sid/icd-10#Z76.89 (\"Out of stock\")]\"\n96ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Check \"http://hl7.org/fhir/sid/icd-10#Z76.89\"\n96ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: CodeSystem found: http://hl7.org/fhir/sid/icd-10|2019-covid-expanded for http://hl7.org/fhir/sid/icd-10|2019-covid-expanded\n96ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: check code in (http://hl7.org/fhir/sid/icd-10) at Coding\n96ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Code \"Z76.89\" not found in http://hl7.org/fhir/sid/icd-10|2019-covid-expanded: undefined",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "Unknown_Code_in_Version"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-code"
+      }],
+      "text" : "Unknown code 'Z76.89' in the CodeSystem 'http://hl7.org/fhir/sid/icd-10' version '2019-covid-expanded'"
+    },
+    "expression" : ["Coding.code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "Z30.9",
+  "display" : "Device-based Contraception Method requested (ICD-10-WHO)"
+}, "valueSet" :null, "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "Contraceptive management, unspecified",
+  "code" : "Z30.9",
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "version" : "2019-covid-expanded",
+  "severity" : "error",
+  "error" : "Wrong Display Name 'Device-based Contraception Method requested (ICD-10-WHO)' for http://hl7.org/fhir/sid/icd-10#Z30.9. Valid display is 'Contraceptive management, unspecified' (for the language(s) 'en-US')",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n1554ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Validate \"[http://hl7.org/fhir/sid/icd-10#Z30.9 (\"Device-based Contraception Method requested (ICD-10-WHO)\")]\"\n1555ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Check \"http://hl7.org/fhir/sid/icd-10#Z30.9\"\n1555ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: CodeSystem found: http://hl7.org/fhir/sid/icd-10|2019-covid-expanded for http://hl7.org/fhir/sid/icd-10|2019-covid-expanded\n1555ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: check code in (http://hl7.org/fhir/sid/icd-10) at Coding\n1555ms http://hl7.org/fhir/sid/icd-10/vs|2019-covid-expanded: Code \"Z30.9\" found in http://hl7.org/fhir/sid/icd-10|2019-covid-expanded",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "Display_Name_for__should_be_one_of__instead_of"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.fhir.org/r4"
+    }],
+    "severity" : "error",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-display"
+      }],
+      "text" : "Wrong Display Name 'Device-based Contraception Method requested (ICD-10-WHO)' for http://hl7.org/fhir/sid/icd-10#Z30.9. Valid display is 'Contraceptive management, unspecified' (for the language(s) 'en-US')"
+    },
+    "expression" : ["Coding.display"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "Z76.89",
+        "display" : "Out of stock"
+      },
+      {
+        "code" : "Z31.9",
+        "display" : "Sterile for non-contraceptive reasons"
+      }]
+    }]
+  }
+}}####
+e: {
+  "source" : tx.fhir.org,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:bd9ddc0d-d024-4237-aa59-281f6baad001",
+    "timestamp" : "2026-11-10T20:34:05.171Z",
+    "total" : 1,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "includeDefinition",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://hl7.org/fhir/sid/icd-10|2019-covid-expanded"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "Z31.9",
+      "display" : "Procreative management, unspecified"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "N91.2",
+        "display" : "Amenorrhoea"
+      },
+      {
+        "code" : "N93.9",
+        "display" : "Irregular bleeding"
+      },
+      {
+        "code" : "Z32.0",
+        "display" : "Client suspects pregnancy"
+      },
+      {
+        "code" : "N89.8",
+        "display" : "Spotting or light bleeding / Unexplained vaginal bleeding"
+      },
+      {
+        "code" : "N93",
+        "display" : "Heavy or prolonged bleeding"
+      },
+      {
+        "code" : "F39",
+        "display" : "Mood changes after start of method"
+      },
+      {
+        "code" : "N99.89",
+        "display" : "Pain lasting for months"
+      },
+      {
+        "code" : "R10.30",
+        "display" : "Severe pain in lower abdomen"
+      },
+      {
+        "code" : "T81.4",
+        "display" : "Abscess"
+      },
+      {
+        "code" : "B37.3",
+        "display" : "Candidiasis"
+      },
+      {
+        "code" : "N76.0",
+        "display" : "Bacterial vaginosis"
+      },
+      {
+        "code" : "N77.1",
+        "display" : "Bacterial vaginosis"
+      },
+      {
+        "code" : "A48.3",
+        "display" : "Toxic shock syndrome"
+      },
+      {
+        "code" : "N39",
+        "display" : "Urinary tract infection"
+      },
+      {
+        "code" : "Z87.440",
+        "display" : "Urinary tract infection"
+      },
+      {
+        "code" : "N98.9",
+        "display" : "Irritation"
+      },
+      {
+        "code" : "Z88.8",
+        "display" : "Allergic reaction"
+      },
+      {
+        "code" : "L70.9",
+        "display" : "Acne"
+      },
+      {
+        "code" : "G44.40",
+        "display" : "Headaches"
+      },
+      {
+        "code" : "R11.0",
+        "display" : "Nausea"
+      },
+      {
+        "code" : "R42",
+        "display" : "Dizziness"
+      }]
+    }]
+  }
+}}####
+e: {
+  "source" : tx.fhir.org,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:1035b3f7-e1f7-4121-acc6-f113bd202577",
+    "timestamp" : "2026-11-10T20:34:07.183Z",
+    "total" : 16,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "includeDefinition",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://hl7.org/fhir/sid/icd-10|2019-covid-expanded"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N91.2",
+      "display" : "Amenorrhoea, unspecified"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N93.9",
+      "display" : "Abnormal uterine and vaginal bleeding, unspecified"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "Z32.0",
+      "display" : "Pregnancy, not (yet) confirmed"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N89.8",
+      "display" : "Other specified noninflammatory disorders of vagina"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N93",
+      "display" : "Other abnormal uterine and vaginal bleeding"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "F39",
+      "display" : "Unspecified mood [affective] disorder"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "T81.4",
+      "display" : "Infection following a procedure, not elsewhere classified"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "B37.3",
+      "display" : "Candidiasis of vulva and vagina[N77.1]"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N76.0",
+      "display" : "Acute vaginitis"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N77.1",
+      "display" : "Vaginitis, vulvitis and vulvovaginitis in infectious and parasitic diseases classified elsewhere"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A48.3",
+      "display" : "Toxic shock syndrome"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N39",
+      "display" : "Other disorders of urinary system"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N98.9",
+      "display" : "Complication associated with artificial fertilization, unspecified"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "Z88.8",
+      "display" : "Personal history of allergy to other drugs, medicaments and biological substances"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "L70.9",
+      "display" : "Acne, unspecified"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "R42",
+      "display" : "Dizziness and giddiness"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "Z30.0",
+        "display" : "Contraception counseling"
+      },
+      {
+        "code" : "Z30.01",
+        "display" : "Starting contraception"
+      },
+      {
+        "code" : "Z30",
+        "display" : "Contraceptive continuation"
+      },
+      {
+        "code" : "Z30.012",
+        "display" : "Emergency contraception"
+      },
+      {
+        "code" : "Z30.40",
+        "display" : "Contraception Issues and concerns"
+      },
+      {
+        "code" : "Z30.46",
+        "display" : "Implant removal"
+      },
+      {
+        "code" : "Z30.432",
+        "display" : "IUD Removal"
+      }]
+    }]
+  }
+}}####
+e: {
+  "source" : tx.fhir.org,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:887052e1-56e4-4f6e-9cc3-1e6377e2c648",
+    "timestamp" : "2026-11-10T20:34:08.559Z",
+    "total" : 2,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "includeDefinition",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://hl7.org/fhir/sid/icd-10|2019-covid-expanded"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "Z30.0",
+      "display" : "General counselling and advice on contraception"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "Z30",
+      "display" : "Contraceptive management"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

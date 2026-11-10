@@ -1,0 +1,141 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+    "code" : "001"
+  }]
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "externalSource":"StructureDefinition[http://hl7.org/fhir/StructureDefinition/CodeSystem|4.0.1]", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "World",
+  "code" : "001",
+  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[1]: \"(urn:iso:std:iso:3166:-2)\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166:-2|2021\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[2]: \"(http://unstats.un.org/unsd/methods/m49/m49.htm)(class=region)\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"http://unstats.un.org/unsd/methods/m49/m49.htm|null\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Validate \"[http://unstats.un.org/unsd/methods/m49/m49.htm#001 (\"undefined\")]\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Check \"http://unstats.un.org/unsd/methods/m49/m49.htm#001\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Include for urn:iso:std:iso:3166 not considered for \"http://unstats.un.org/unsd/methods/m49/m49.htm\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Include for urn:iso:std:iso:3166:-2 not considered for \"http://unstats.un.org/unsd/methods/m49/m49.htm\"\n2ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: http://unstats.un.org/unsd/methods/m49/m49.htm|null for http://unstats.un.org/unsd/methods/m49/m49.htm\n2ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: check code in (http://unstats.un.org/unsd/methods/m49/m49.htm)(class=region) at CodeableConcept.coding[0]\n2ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Filter class = region: Code \"001\" found in http://unstats.un.org/unsd/methods/m49/m49.htm|null",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+    "code" : "001"
+  }]
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "externalSource":"StructureDefinition[http://hl7.org/fhir/StructureDefinition/ValueSet|4.0.1]", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "World",
+  "code" : "001",
+  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[1]: \"(urn:iso:std:iso:3166:-2)\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166:-2|2021\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[2]: \"(http://unstats.un.org/unsd/methods/m49/m49.htm)(class=region)\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"http://unstats.un.org/unsd/methods/m49/m49.htm|null\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Validate \"[http://unstats.un.org/unsd/methods/m49/m49.htm#001 (\"undefined\")]\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Check \"http://unstats.un.org/unsd/methods/m49/m49.htm#001\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Include for urn:iso:std:iso:3166 not considered for \"http://unstats.un.org/unsd/methods/m49/m49.htm\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Include for urn:iso:std:iso:3166:-2 not considered for \"http://unstats.un.org/unsd/methods/m49/m49.htm\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: http://unstats.un.org/unsd/methods/m49/m49.htm|null for http://unstats.un.org/unsd/methods/m49/m49.htm\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: check code in (http://unstats.un.org/unsd/methods/m49/m49.htm)(class=region) at CodeableConcept.coding[0]\n2ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Filter class = region: Code \"001\" found in http://unstats.un.org/unsd/methods/m49/m49.htm|null",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+    "code" : "001"
+  }]
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "externalSource":"StructureDefinition[http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1]", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "World",
+  "code" : "001",
+  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[1]: \"(urn:iso:std:iso:3166:-2)\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166:-2|2021\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[2]: \"(http://unstats.un.org/unsd/methods/m49/m49.htm)(class=region)\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"http://unstats.un.org/unsd/methods/m49/m49.htm|null\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Validate \"[http://unstats.un.org/unsd/methods/m49/m49.htm#001 (\"undefined\")]\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Check \"http://unstats.un.org/unsd/methods/m49/m49.htm#001\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Include for urn:iso:std:iso:3166 not considered for \"http://unstats.un.org/unsd/methods/m49/m49.htm\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Include for urn:iso:std:iso:3166:-2 not considered for \"http://unstats.un.org/unsd/methods/m49/m49.htm\"\n2ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: http://unstats.un.org/unsd/methods/m49/m49.htm|null for http://unstats.un.org/unsd/methods/m49/m49.htm\n2ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: check code in (http://unstats.un.org/unsd/methods/m49/m49.htm)(class=region) at CodeableConcept.coding[0]\n2ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Filter class = region: Code \"001\" found in http://unstats.un.org/unsd/methods/m49/m49.htm|null",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+    "code" : "001"
+  }]
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "externalSource":"StructureDefinition[http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1]", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "World",
+  "code" : "001",
+  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[1]: \"(urn:iso:std:iso:3166:-2)\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166:-2|2021\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[2]: \"(http://unstats.un.org/unsd/methods/m49/m49.htm)(class=region)\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"http://unstats.un.org/unsd/methods/m49/m49.htm|null\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Validate \"[http://unstats.un.org/unsd/methods/m49/m49.htm#001 (\"undefined\")]\"\n2ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Check \"http://unstats.un.org/unsd/methods/m49/m49.htm#001\"\n2ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Include for urn:iso:std:iso:3166 not considered for \"http://unstats.un.org/unsd/methods/m49/m49.htm\"\n2ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Include for urn:iso:std:iso:3166:-2 not considered for \"http://unstats.un.org/unsd/methods/m49/m49.htm\"\n2ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: http://unstats.un.org/unsd/methods/m49/m49.htm|null for http://unstats.un.org/unsd/methods/m49/m49.htm\n2ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: check code in (http://unstats.un.org/unsd/methods/m49/m49.htm)(class=region) at CodeableConcept.coding[0]\n2ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Filter class = region: Code \"001\" found in http://unstats.un.org/unsd/methods/m49/m49.htm|null",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+    "code" : "001"
+  }]
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "World",
+  "code" : "001",
+  "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Analysing http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[0]: \"(urn:iso:std:iso:3166)\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166|2018\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[1]: \"(urn:iso:std:iso:3166:-2)\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"urn:iso:std:iso:3166:-2|2021\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Prepare include[2]: \"(http://unstats.un.org/unsd/methods/m49/m49.htm)(class=region)\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: \"http://unstats.un.org/unsd/methods/m49/m49.htm|null\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Validate \"[http://unstats.un.org/unsd/methods/m49/m49.htm#001 (\"undefined\")]\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Check \"http://unstats.un.org/unsd/methods/m49/m49.htm#001\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Include for urn:iso:std:iso:3166 not considered for \"http://unstats.un.org/unsd/methods/m49/m49.htm\"\n1ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Include for urn:iso:std:iso:3166:-2 not considered for \"http://unstats.un.org/unsd/methods/m49/m49.htm\"\n2ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: CodeSystem found: http://unstats.un.org/unsd/methods/m49/m49.htm|null for http://unstats.un.org/unsd/methods/m49/m49.htm\n2ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: check code in (http://unstats.un.org/unsd/methods/m49/m49.htm)(class=region) at CodeableConcept.coding[0]\n2ms http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1: Filter class = region: Code \"001\" found in http://unstats.un.org/unsd/methods/m49/m49.htm|null",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------

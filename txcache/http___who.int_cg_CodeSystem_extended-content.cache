@@ -1,0 +1,277 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
+      "concept" : [{
+        "code" : "Other",
+        "display" : "Other"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "class" : "UNKNOWN",
+  "error" : "Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://who.int/cg/CodeSystem/extended-content' could not be found, so the value set cannot be expanded"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
+      "concept" : [{
+        "code" : "<15 cigarettes per day",
+        "display" : "<15 cigarettes per day"
+      },
+      {
+        "code" : ">= 15 cigarettes per day",
+        "display" : ">= 15 cigarettes per day"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "class" : "UNKNOWN",
+  "error" : "Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://who.int/cg/CodeSystem/extended-content' could not be found, so the value set cannot be expanded"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
+      "concept" : [{
+        "code" : "Makes noise during sex",
+        "display" : "Makes noise during sex"
+      },
+      {
+        "code" : "Other",
+        "display" : "Other"
+      },
+      {
+        "code" : "Difficulty persuading partner to use method",
+        "display" : "Difficulty persuading partner to use method"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "class" : "UNKNOWN",
+  "error" : "Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://who.int/cg/CodeSystem/extended-content' could not be found, so the value set cannot be expanded"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
+      "concept" : [{
+        "code" : "Broad-spectrum antibiotics",
+        "display" : "Broad-spectrum antibiotics"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "class" : "UNKNOWN",
+  "error" : "Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://who.int/cg/CodeSystem/extended-content' could not be found, so the value set cannot be expanded"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
+      "concept" : [{
+        "code" : "Backup Method Needed",
+        "display" : "Backup contraception method needed"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "class" : "UNKNOWN",
+  "error" : "Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://who.int/cg/CodeSystem/extended-content' could not be found, so the value set cannot be expanded"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
+      "concept" : [{
+        "code" : "Accept",
+        "display" : "Accept"
+      },
+      {
+        "code" : "Caution",
+        "display" : "Caution"
+      },
+      {
+        "code" : "Delay",
+        "display" : "Delay"
+      },
+      {
+        "code" : "Special",
+        "display" : "Special"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "class" : "UNKNOWN",
+  "error" : "Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://who.int/cg/CodeSystem/extended-content' could not be found, so the value set cannot be expanded"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
+      "concept" : [{
+        "code" : "Minor surgery without immobilization",
+        "display" : "Minor surgery without immobilization"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "class" : "UNKNOWN",
+  "error" : "Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://who.int/cg/CodeSystem/extended-content' could not be found, so the value set cannot be expanded"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
+      "concept" : [{
+        "code" : "Other",
+        "display" : "Other"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "class" : "UNKNOWN",
+  "error" : "Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://who.int/cg/CodeSystem/extended-content' could not be found, so the value set cannot be expanded"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
+      "concept" : [{
+        "code" : "<15 cigarettes per day",
+        "display" : "<15 cigarettes per day"
+      },
+      {
+        "code" : ">= 15 cigarettes per day",
+        "display" : ">= 15 cigarettes per day"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "class" : "UNKNOWN",
+  "error" : "Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://who.int/cg/CodeSystem/extended-content' could not be found, so the value set cannot be expanded"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
+      "concept" : [{
+        "code" : "Makes noise during sex",
+        "display" : "Makes noise during sex"
+      },
+      {
+        "code" : "Other",
+        "display" : "Other"
+      },
+      {
+        "code" : "Difficulty persuading partner to use method",
+        "display" : "Difficulty persuading partner to use method"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "class" : "UNKNOWN",
+  "error" : "Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://who.int/cg/CodeSystem/extended-content' could not be found, so the value set cannot be expanded"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
+      "concept" : [{
+        "code" : "Backup Method Needed",
+        "display" : "Backup contraception method needed"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "class" : "UNKNOWN",
+  "error" : "Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://who.int/cg/CodeSystem/extended-content' could not be found, so the value set cannot be expanded"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
+      "concept" : [{
+        "code" : "Accept",
+        "display" : "Accept"
+      },
+      {
+        "code" : "Caution",
+        "display" : "Caution"
+      },
+      {
+        "code" : "Delay",
+        "display" : "Delay"
+      },
+      {
+        "code" : "Special",
+        "display" : "Special"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "class" : "UNKNOWN",
+  "error" : "Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://who.int/cg/CodeSystem/extended-content' could not be found, so the value set cannot be expanded"
+}
+-------------------------------------------------------------------------------------

@@ -1,0 +1,120 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-11",
+      "concept" : [{
+        "code" : "QC4Z",
+        "display" : "Past ectopic pregnancy"
+      },
+      {
+        "code" : "BD72",
+        "display" : "Deep venous thrombosis (DVT) / History of DVT / History of PE"
+      },
+      {
+        "code" : "8B20",
+        "display" : "Stroke / Stroke (history of cerebrovascular accident)"
+      },
+      {
+        "code" : "BA4Z",
+        "display" : "Ischaemic heart disease"
+      },
+      {
+        "code" : "BA00",
+        "display" : "Hypertension"
+      },
+      {
+        "code" : "5B81",
+        "display" : "Obese"
+      },
+      {
+        "code" : "5A14",
+        "display" : "Diabetes / Nephropathy / Retinopathy"
+      },
+      {
+        "code" : "JA63.0",
+        "display" : "Non-vascular Insulin-dependent diabetes"
+      },
+      {
+        "code" : "JA63.1",
+        "display" : "Non-vascular non-insulin dependent diabetes"
+      },
+      {
+        "code" : "BA5Z",
+        "display" : "Current ischemic heart disease"
+      },
+      {
+        "code" : "5C80",
+        "display" : "Dyslipidemias"
+      },
+      {
+        "code" : "GA10",
+        "display" : "Endometriosis"
+      },
+      {
+        "code" : "GA34.3",
+        "display" : "Severe dysmenorrhea"
+      },
+      {
+        "code" : "JA02.0",
+        "display" : "Gestational trophoblastic disease"
+      },
+      {
+        "code" : "GA15.7",
+        "display" : "Cervical neoplasia"
+      },
+      {
+        "code" : "QA02.2",
+        "display" : "Cervical cancer awaiting treatment"
+      },
+      {
+        "code" : "1A7Z",
+        "display" : "Current gonorrhea"
+      },
+      {
+        "code" : "1C2Z",
+        "display" : "Current chlamydia"
+      },
+      {
+        "code" : "1F4Z",
+        "display" : "Malaria"
+      },
+      {
+        "code" : "5A02.5",
+        "display" : "Hyperthyroid"
+      },
+      {
+        "code" : "5A00",
+        "display" : "Hypothyroid"
+      },
+      {
+        "code" : "DC10.02",
+        "display" : "History of cholestasis"
+      },
+      {
+        "code" : "1E5Z",
+        "display" : "Viral hepatitis"
+      },
+      {
+        "code" : "1E+50",
+        "display" : "Viral hepatitis - Acute or flare"
+      },
+      {
+        "code" : "1E+51",
+        "display" : "Viral hepatitis - Chronic"
+      },
+      {
+        "code" : "3A50",
+        "display" : "Anemia - Thalassemia"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "class" : "UNKNOWN",
+  "error" : "Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://hl7.org/fhir/sid/icd-11' could not be found, so the value set cannot be expanded"
+}
+-------------------------------------------------------------------------------------

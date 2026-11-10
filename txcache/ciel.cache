@@ -1,0 +1,476 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/ciel",
+      "concept" : [{
+        "code" : "72822",
+        "display" : "carbamazepine"
+      },
+      {
+        "code" : "81294",
+        "display" : "oxcarbazepine"
+      },
+      {
+        "code" : "82023",
+        "display" : "phenytoin"
+      },
+      {
+        "code" : "82534",
+        "display" : "primidone"
+      },
+      {
+        "code" : "85235",
+        "display" : "topiramate"
+      },
+      {
+        "code" : "78644",
+        "display" : "lamotrigine"
+      },
+      {
+        "code" : "767",
+        "display" : "Rifampicin"
+      },
+      {
+        "code" : "83352",
+        "display" : "Rifabutin"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "class" : "UNKNOWN",
+  "error" : "Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://hl7.org/fhir/sid/ciel' could not be found, so the value set cannot be expanded"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/ciel",
+      "concept" : [{
+        "code" : "158905",
+        "display" : "Past ectopic pregnancy"
+      },
+      {
+        "code" : "159276",
+        "display" : "Deep venous thrombosis (DVT) / Pulmonary embolism (PE)"
+      },
+      {
+        "code" : "144475",
+        "display" : "Stroke / Stroke (history of cerebrovascular accident)"
+      },
+      {
+        "code" : "122009",
+        "display" : "Ischaemic heart disease"
+      },
+      {
+        "code" : "117399",
+        "display" : "Hypertension"
+      },
+      {
+        "code" : "115115",
+        "display" : "Obese"
+      },
+      {
+        "code" : "158473",
+        "display" : "Non-vascular Insulin-dependent diabetes"
+      },
+      {
+        "code" : "158474",
+        "display" : "Non-vascular non-insulin dependent diabetes"
+      },
+      {
+        "code" : "142431",
+        "display" : "Nephropathy"
+      },
+      {
+        "code" : "142429",
+        "display" : "Retinopathy"
+      },
+      {
+        "code" : "116608",
+        "display" : "Current ischemic heart disease"
+      },
+      {
+        "code" : "141623",
+        "display" : "Dyslipidemias"
+      },
+      {
+        "code" : "118631",
+        "display" : "Endometriosis"
+      },
+      {
+        "code" : "118794",
+        "display" : "Severe dysmenorrhea"
+      },
+      {
+        "code" : "139478",
+        "display" : "Gestational trophoblastic disease"
+      },
+      {
+        "code" : "120780",
+        "display" : "Cervical neoplasia"
+      },
+      {
+        "code" : "159008",
+        "display" : "Cervical cancer awaiting treatment"
+      },
+      {
+        "code" : "117767",
+        "display" : "Current gonorrhea"
+      },
+      {
+        "code" : "120733",
+        "display" : "Current chlamydia"
+      },
+      {
+        "code" : "116128",
+        "display" : "Malaria"
+      },
+      {
+        "code" : "138176",
+        "display" : "Hyperthyroid"
+      },
+      {
+        "code" : "117321",
+        "display" : "Hypothyroid"
+      },
+      {
+        "code" : "145618",
+        "display" : "History of cholestasis"
+      },
+      {
+        "code" : "111479",
+        "display" : "Viral hepatitis"
+      },
+      {
+        "code" : "1068",
+        "display" : "Gallbladder disease - Symptomatic"
+      },
+      {
+        "code" : "149471",
+        "display" : "Viral hepatitis - Acute or flare"
+      },
+      {
+        "code" : "145131",
+        "display" : "Viral hepatitis - Chronic"
+      },
+      {
+        "code" : "124940",
+        "display" : "Anemia - Thalassemia"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "class" : "UNKNOWN",
+  "error" : "Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://hl7.org/fhir/sid/ciel' could not be found, so the value set cannot be expanded"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/ciel",
+      "concept" : [{
+        "code" : "158905",
+        "display" : "Past ectopic pregnancy"
+      },
+      {
+        "code" : "159276",
+        "display" : "Deep venous thrombosis (DVT) / Pulmonary embolism (PE)"
+      },
+      {
+        "code" : "144475",
+        "display" : "Stroke / Stroke (history of cerebrovascular accident)"
+      },
+      {
+        "code" : "122009",
+        "display" : "Ischaemic heart disease"
+      },
+      {
+        "code" : "117399",
+        "display" : "Hypertension"
+      },
+      {
+        "code" : "115115",
+        "display" : "Obese"
+      },
+      {
+        "code" : "158473",
+        "display" : "Non-vascular Insulin-dependent diabetes"
+      },
+      {
+        "code" : "158474",
+        "display" : "Non-vascular non-insulin dependent diabetes"
+      },
+      {
+        "code" : "142431",
+        "display" : "Nephropathy"
+      },
+      {
+        "code" : "142429",
+        "display" : "Retinopathy"
+      },
+      {
+        "code" : "116608",
+        "display" : "Current ischemic heart disease"
+      },
+      {
+        "code" : "141623",
+        "display" : "Dyslipidemias"
+      },
+      {
+        "code" : "118631",
+        "display" : "Endometriosis"
+      },
+      {
+        "code" : "118794",
+        "display" : "Severe dysmenorrhea"
+      },
+      {
+        "code" : "139478",
+        "display" : "Gestational trophoblastic disease"
+      },
+      {
+        "code" : "120780",
+        "display" : "Cervical neoplasia"
+      },
+      {
+        "code" : "159008",
+        "display" : "Cervical cancer awaiting treatment"
+      },
+      {
+        "code" : "117767",
+        "display" : "Current gonorrhea"
+      },
+      {
+        "code" : "120733",
+        "display" : "Current chlamydia"
+      },
+      {
+        "code" : "116128",
+        "display" : "Malaria"
+      },
+      {
+        "code" : "138176",
+        "display" : "Hyperthyroid"
+      },
+      {
+        "code" : "117321",
+        "display" : "Hypothyroid"
+      },
+      {
+        "code" : "145618",
+        "display" : "History of cholestasis"
+      },
+      {
+        "code" : "111479",
+        "display" : "Viral hepatitis"
+      },
+      {
+        "code" : "1068",
+        "display" : "Gallbladder disease - Symptomatic"
+      },
+      {
+        "code" : "149471",
+        "display" : "Viral hepatitis - Acute or flare"
+      },
+      {
+        "code" : "145131",
+        "display" : "Viral hepatitis - Chronic"
+      },
+      {
+        "code" : "124940",
+        "display" : "Anemia - Thalassemia"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "class" : "UNKNOWN",
+  "error" : "Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://hl7.org/fhir/sid/ciel' could not be found, so the value set cannot be expanded"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/ciel",
+      "concept" : [{
+        "code" : "72822",
+        "display" : "carbamazepine"
+      },
+      {
+        "code" : "81294",
+        "display" : "oxcarbazepine"
+      },
+      {
+        "code" : "82023",
+        "display" : "phenytoin"
+      },
+      {
+        "code" : "82534",
+        "display" : "primidone"
+      },
+      {
+        "code" : "85235",
+        "display" : "topiramate"
+      },
+      {
+        "code" : "78644",
+        "display" : "lamotrigine"
+      },
+      {
+        "code" : "767",
+        "display" : "Rifampicin"
+      },
+      {
+        "code" : "83352",
+        "display" : "Rifabutin"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "class" : "UNKNOWN",
+  "error" : "Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://hl7.org/fhir/sid/ciel' could not be found, so the value set cannot be expanded"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/ciel",
+      "concept" : [{
+        "code" : "158905",
+        "display" : "Past ectopic pregnancy"
+      },
+      {
+        "code" : "159276",
+        "display" : "Deep venous thrombosis (DVT) / Pulmonary embolism (PE)"
+      },
+      {
+        "code" : "144475",
+        "display" : "Stroke / Stroke (history of cerebrovascular accident)"
+      },
+      {
+        "code" : "122009",
+        "display" : "Ischaemic heart disease"
+      },
+      {
+        "code" : "117399",
+        "display" : "Hypertension"
+      },
+      {
+        "code" : "115115",
+        "display" : "Obese"
+      },
+      {
+        "code" : "158473",
+        "display" : "Non-vascular Insulin-dependent diabetes"
+      },
+      {
+        "code" : "158474",
+        "display" : "Non-vascular non-insulin dependent diabetes"
+      },
+      {
+        "code" : "142431",
+        "display" : "Nephropathy"
+      },
+      {
+        "code" : "142429",
+        "display" : "Retinopathy"
+      },
+      {
+        "code" : "116608",
+        "display" : "Current ischemic heart disease"
+      },
+      {
+        "code" : "141623",
+        "display" : "Dyslipidemias"
+      },
+      {
+        "code" : "118631",
+        "display" : "Endometriosis"
+      },
+      {
+        "code" : "118794",
+        "display" : "Severe dysmenorrhea"
+      },
+      {
+        "code" : "139478",
+        "display" : "Gestational trophoblastic disease"
+      },
+      {
+        "code" : "120780",
+        "display" : "Cervical neoplasia"
+      },
+      {
+        "code" : "159008",
+        "display" : "Cervical cancer awaiting treatment"
+      },
+      {
+        "code" : "117767",
+        "display" : "Current gonorrhea"
+      },
+      {
+        "code" : "120733",
+        "display" : "Current chlamydia"
+      },
+      {
+        "code" : "116128",
+        "display" : "Malaria"
+      },
+      {
+        "code" : "138176",
+        "display" : "Hyperthyroid"
+      },
+      {
+        "code" : "117321",
+        "display" : "Hypothyroid"
+      },
+      {
+        "code" : "145618",
+        "display" : "History of cholestasis"
+      },
+      {
+        "code" : "111479",
+        "display" : "Viral hepatitis"
+      },
+      {
+        "code" : "1068",
+        "display" : "Gallbladder disease - Symptomatic"
+      },
+      {
+        "code" : "149471",
+        "display" : "Viral hepatitis - Acute or flare"
+      },
+      {
+        "code" : "145131",
+        "display" : "Viral hepatitis - Chronic"
+      },
+      {
+        "code" : "124940",
+        "display" : "Anemia - Thalassemia"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "class" : "UNKNOWN",
+  "error" : "Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://hl7.org/fhir/sid/ciel' could not be found, so the value set cannot be expanded"
+}
+-------------------------------------------------------------------------------------
