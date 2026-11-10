@@ -34,6 +34,8 @@ pages:
     title: Terminology
   downloads.md:
     title: Downloads
+  sushi-conversion.md:
+    title: Conversion to FSH
 
 menu:
   Home: index.html
