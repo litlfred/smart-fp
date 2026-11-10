@@ -11,5 +11,6 @@ Description: "System generated medical eligibility value for numerical ratings"
 * . ^mustSupport = false
 * value[x] only integer
 * value[x] 0..1 MS
-* value[x] ^binding.strength = #required
-* value[x] ^binding.valueSet = Canonical($medicaleligibilitynumber-values)
+* value[x] ^minValueInteger = 1
+* value[x] ^maxValueInteger = 4
+* value[x] ^comment = "WHO Medical Eligibility Criteria category, 1 to 4."
