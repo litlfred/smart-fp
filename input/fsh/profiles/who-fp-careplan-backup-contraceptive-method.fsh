@@ -8,7 +8,5 @@ Description: "Type of backup method provided"
 * ^experimental = false
 * . ^short = "Type of backup method provided"
 * . ^mustSupport = false
-* activity.detail.code ^min = 0
-* activity.detail.code ^max = "*"
 * activity.detail.code MS
 * activity.detail.code from $backupcontraceptivemethod-values (required)

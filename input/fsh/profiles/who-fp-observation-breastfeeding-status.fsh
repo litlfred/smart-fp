@@ -10,7 +10,5 @@ Title: "WHO-FP Observation (Breastfeeding Status)"
 * code 1..1 MS
 * code = $loinc#63895-7 "Breastfeeding status (LOINC)" (exactly)
 * value[x] only CodeableConcept
-* value[x] ^min = 0
-* value[x] ^max = "*"
 * value[x] MS
 * value[x] from $breastfeeding-status-values (required)

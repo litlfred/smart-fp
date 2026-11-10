@@ -8,6 +8,4 @@ Description: "An intrauterine device could not be inserted during the visit"
 * ^experimental = false
 * . ^short = "IUD Insertion not possible"
 * . ^mustSupport = false
-* status ^min = 0
-* status ^max = "1"
 * status MS

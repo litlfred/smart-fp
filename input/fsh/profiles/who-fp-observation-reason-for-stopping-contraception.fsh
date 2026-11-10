@@ -11,8 +11,6 @@ Description: "If stopping a method, the reason why."
 * code 1..1 MS
 * code = $loinc#LL4579-0 "Reason for stopping contraception method (LOINC)" (exactly)
 * value[x] only CodeableConcept or string
-* valueCodeableConcept ^min = 0
-* valueCodeableConcept ^max = "*"
 * valueCodeableConcept MS
 * valueCodeableConcept only CodeableConcept
 * valueCodeableConcept from $nobirthcontrolmethods-values (extensible)

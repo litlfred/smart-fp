@@ -10,6 +10,5 @@ Description: "The first pick of method desired by the client, prior to medical e
 * . ^comment = "Required for MEC logic"
 * . ^mustSupport = false
 * medication[x] only CodeableConcept
-* medication[x] ^min = 0
 * medication[x] MS
 * medication[x] from $medicationbirthcontrolmethods-values (required)

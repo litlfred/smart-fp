@@ -8,7 +8,5 @@ Description: "Contraceptive method at exit reported."
 * ^experimental = false
 * . ^short = "Method at exit - reported"
 * . ^mustSupport = false
-* device.type ^min = 0
-* device.type ^max = "*"
 * device.type MS
 * device.type from $devicebirthcontrolmethods-values (required)
