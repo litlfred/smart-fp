@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://fhir.org/guides/who/fp-cds/ValueSet-pregnancy-intention-values.schema.json",
+  "title": "Pregnancy intention values Schema",
+  "description": "JSON Schema for Pregnancy intention values ValueSet codes. Values are represented as Coding objects with 'system' and 'code' properties.",
+  "type": "object",
+  "required": [
+    "system",
+    "code"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "system": {
+      "type": "string",
+      "const": "http://loinc.org"
+    },
+    "code": {
+      "type": "string",
+      "enum": [
+        "LA26439-2",
+        "LA26440-0",
+        "LA14072-5"
+      ]
+    }
+  },
+  "narrative": "This schema validates Coding-shaped objects for the Pregnancy intention values ValueSet. Each value must be an object with 'system' (CodeSystem URI) and 'code' (fragment after '#') properties. Display values are available at http://fhir.org/guides/who/fp-cds/ValueSet-pregnancy-intention-values.displays.json. The canonical IRI for a code can be reconstructed as system + '#' + code. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://fhir.org/guides/who/fp-cds/ValueSet-pregnancy-intention-values.displays.json",
+  "fhir:valueSet": "http://fhir.org/guides/who/fp-cds/ValueSet/pregnancy-intention-values",
+  "fhir:version": "0.2.0",
+  "fhir:expansionTimestamp": "2026-11-10T20:34:07+00:00"
+}

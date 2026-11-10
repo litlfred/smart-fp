@@ -1,0 +1,58 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@base": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-family-planning-visit-values.jsonld",
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "fhir:CodeSystem": {
+      "@type": "@id"
+    },
+    "cs0": "http://snomed.info/sct",
+    "cs1": "http://hl7.org/fhir/sid/icd-10"
+  },
+  "@id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-family-planning-visit-values.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-11-10T20:34:38.737847120Z",
+  "@graph": [
+    {
+      "id": "#169450001",
+      "name": "No contraceptive precautions",
+      "fhir:CodeSystem": "cs0"
+    },
+    {
+      "id": "#408968008",
+      "name": "Contraception care education",
+      "fhir:CodeSystem": "cs0"
+    },
+    {
+      "id": "#243816001",
+      "name": "Contraception status",
+      "fhir:CodeSystem": "cs0"
+    },
+    {
+      "id": "#275813002",
+      "name": "Emergency contraception",
+      "fhir:CodeSystem": "cs0"
+    },
+    {
+      "id": "#424016000",
+      "name": "Change of oral contraceptive prescription",
+      "fhir:CodeSystem": "cs0"
+    },
+    {
+      "id": "#Z30.0",
+      "name": "General counselling and advice on contraception",
+      "fhir:CodeSystem": "cs1"
+    },
+    {
+      "id": "#Z30",
+      "name": "Contraceptive management",
+      "fhir:CodeSystem": "cs1"
+    }
+  ]
+}

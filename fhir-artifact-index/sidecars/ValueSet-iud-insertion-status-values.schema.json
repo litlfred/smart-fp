@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://fhir.org/guides/who/fp-cds/ValueSet-iud-insertion-status-values.schema.json",
+  "title": "IUD Insertion status values Schema",
+  "description": "JSON Schema for IUD Insertion status values ValueSet codes. Values are represented as Coding objects with 'system' and 'code' properties.",
+  "type": "object",
+  "required": [
+    "system",
+    "code"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "system": {
+      "type": "string",
+      "const": "http://hl7.org/fhir/event-status"
+    },
+    "code": {
+      "type": "string",
+      "enum": [
+        "completed",
+        "not-done"
+      ]
+    }
+  },
+  "narrative": "This schema validates Coding-shaped objects for the IUD Insertion status values ValueSet. Each value must be an object with 'system' (CodeSystem URI) and 'code' (fragment after '#') properties. Display values are available at http://fhir.org/guides/who/fp-cds/ValueSet-iud-insertion-status-values.displays.json. The canonical IRI for a code can be reconstructed as system + '#' + code. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://fhir.org/guides/who/fp-cds/ValueSet-iud-insertion-status-values.displays.json",
+  "fhir:valueSet": "http://fhir.org/guides/who/fp-cds/ValueSet/iud-insertion-status-values",
+  "fhir:version": "0.2.0",
+  "fhir:expansionTimestamp": "2026-11-10T20:34:07+00:00"
+}

@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@base": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-no-method-at-exit-values.jsonld",
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "fhir:CodeSystem": {
+      "@type": "@id"
+    },
+    "cs0": "http://snomed.info/sct",
+    "cs1": "http://hl7.org/fhir/sid/icd-10"
+  },
+  "@id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-no-method-at-exit-values.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-11-10T20:34:38.737847120Z",
+  "@graph": [
+    {
+      "id": "#445637007",
+      "name": "Chooses not to use contraception",
+      "fhir:CodeSystem": "cs0"
+    },
+    {
+      "id": "#74964007",
+      "name": "Other",
+      "fhir:CodeSystem": "cs0"
+    },
+    {
+      "id": "#182856006",
+      "name": "Drug not available - out of stock",
+      "fhir:CodeSystem": "cs0"
+    },
+    {
+      "id": "#15296000",
+      "name": "Sterility",
+      "fhir:CodeSystem": "cs0"
+    },
+    {
+      "id": "#Z31.9",
+      "name": "Procreative management, unspecified",
+      "fhir:CodeSystem": "cs1"
+    }
+  ]
+}

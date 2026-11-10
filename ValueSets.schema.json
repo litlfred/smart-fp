@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "#/ValueSets.schema.json",
+  "title": "ValueSet Enumeration Schema",
+  "description": "JSON Schema defining the structure of the ValueSet enumeration endpoint response",
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string",
+      "const": "valueset",
+      "description": "The type of schemas enumerated (valueset)"
+    },
+    "count": {
+      "type": "integer",
+      "description": "Total number of schemas available"
+    },
+    "schemas": {
+      "type": "array",
+      "description": "Array of available schemas",
+      "items": {
+        "type": "object",
+        "properties": {
+          "filename": {
+            "type": "string",
+            "description": "Schema filename"
+          },
+          "id": {
+            "type": "string",
+            "description": "Schema $id"
+          },
+          "title": {
+            "type": "string",
+            "description": "Schema title"
+          },
+          "description": {
+            "type": "string",
+            "description": "Schema description"
+          },
+          "url": {
+            "type": "string",
+            "description": "Relative URL to the schema file"
+          },
+          "valueSetUrl": {
+            "type": "string",
+            "description": "FHIR canonical URL of the ValueSet"
+          },
+          "codeCount": {
+            "type": "integer",
+            "description": "Number of codes in the ValueSet"
+          }
+        },
+        "required": [
+          "filename",
+          "title",
+          "url"
+        ]
+      }
+    }
+  },
+  "required": [
+    "type",
+    "count",
+    "schemas"
+  ],
+  "example": {
+    "type": "valueset",
+    "count": 6,
+    "schemas": [
+      {
+        "filename": "ValueSet-breastfeeding-status-values.schema.json",
+        "id": "http://fhir.org/guides/who/fp-cds/ValueSet-breastfeeding-status-values.schema.json",
+        "title": "Breastfeeding status values Schema",
+        "description": "JSON Schema for Breastfeeding status values ValueSet codes. Values are represented as Coding objects with 'system' and 'code' properties.",
+        "url": "./ValueSet-breastfeeding-status-values.schema.json",
+        "valueSetUrl": "http://fhir.org/guides/who/fp-cds/ValueSet/breastfeeding-status-values"
+      },
+      {
+        "filename": "ValueSet-contraceptivedeliverymethod-values.schema.json",
+        "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraceptivedeliverymethod-values.schema.json",
+        "title": "How contraceptive method is being provided values Schema",
+        "description": "JSON Schema for How contraceptive method is being provided values ValueSet codes. Values are represented as Coding objects with 'system' and 'code' properties.",
+        "url": "./ValueSet-contraceptivedeliverymethod-values.schema.json",
+        "valueSetUrl": "http://fhir.org/guides/who/fp-cds/ValueSet/contraceptivedeliverymethod-values"
+      },
+      {
+        "filename": "ValueSet-iud-insertion-status-values.schema.json",
+        "id": "http://fhir.org/guides/who/fp-cds/ValueSet-iud-insertion-status-values.schema.json",
+        "title": "IUD Insertion status values Schema",
+        "description": "JSON Schema for IUD Insertion status values ValueSet codes. Values are represented as Coding objects with 'system' and 'code' properties.",
+        "url": "./ValueSet-iud-insertion-status-values.schema.json",
+        "valueSetUrl": "http://fhir.org/guides/who/fp-cds/ValueSet/iud-insertion-status-values"
+      },
+      {
+        "filename": "ValueSet-pregnancy-intention-values.schema.json",
+        "id": "http://fhir.org/guides/who/fp-cds/ValueSet-pregnancy-intention-values.schema.json",
+        "title": "Pregnancy intention values Schema",
+        "description": "JSON Schema for Pregnancy intention values ValueSet codes. Values are represented as Coding objects with 'system' and 'code' properties.",
+        "url": "./ValueSet-pregnancy-intention-values.schema.json",
+        "valueSetUrl": "http://fhir.org/guides/who/fp-cds/ValueSet/pregnancy-intention-values"
+      },
+      {
+        "filename": "ValueSet-reason-for-family-planning-visit-values.schema.json",
+        "id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-family-planning-visit-values.schema.json",
+        "title": "Reason for family planning visit values Schema",
+        "description": "JSON Schema for Reason for family planning visit values ValueSet codes. Values are represented as Coding objects with 'system' and 'code' properties.",
+        "url": "./ValueSet-reason-for-family-planning-visit-values.schema.json",
+        "valueSetUrl": "http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-family-planning-visit-values"
+      },
+      {
+        "filename": "ValueSet-reason-for-no-method-at-exit-values.schema.json",
+        "id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-no-method-at-exit-values.schema.json",
+        "title": "Reason for no method at exit values Schema",
+        "description": "JSON Schema for Reason for no method at exit values ValueSet codes. Values are represented as Coding objects with 'system' and 'code' properties.",
+        "url": "./ValueSet-reason-for-no-method-at-exit-values.schema.json",
+        "valueSetUrl": "http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-no-method-at-exit-values"
+      }
+    ]
+  }
+}

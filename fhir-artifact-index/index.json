@@ -1,0 +1,2448 @@
+{
+  "$schema": "folio-fhir-artifact-index/v2",
+  "id": "smart-fp",
+  "title": "who.fhir.fp-cds — artefact index (from the IG Publisher AST cache)",
+  "packageId": "who.fhir.fp-cds",
+  "version": "0.2.0",
+  "canonicalBase": "http://fhir.org/guides/who/fp-cds",
+  "source": {
+    "kind": "output",
+    "of": "output-ast",
+    "revision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+    "readAt": "2026-11-10"
+  },
+  "provenance": {},
+  "sidecarApi": "present",
+  "count": 48,
+  "artifacts": [
+    {
+      "key": "CodeSystem/extended-content-codes",
+      "resourceType": "CodeSystem",
+      "id": "extended-content-codes",
+      "name": "extended-content_codes",
+      "title": "Extended Codes CodeSystem codes",
+      "description": "Set of codes identified as being needed but not found in existing Code Systems",
+      "canonical": "http://who.int/cg/CodeSystem/extended-content-codes",
+      "version": "0.2.0",
+      "category": "Terminology: Code Systems",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/CodeSystem-extended-content-codes.json"
+        },
+        "localPath": "output-ast/resources/CodeSystem/extended-content-codes--35c1cc4b.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "ImplementationGuide/who.fhir.fp-cds",
+      "resourceType": "ImplementationGuide",
+      "id": "who.fhir.fp-cds",
+      "name": "FPCDS",
+      "title": "WHO Family Planning Implementation Guide",
+      "description": "This implementation guide defines data element profiles for the World Health Organization (WHO) Family Planning smart guideline.",
+      "canonical": "http://fhir.org/guides/who/fp-cds/ImplementationGuide/who.fhir.fp-cds",
+      "version": "0.2.0",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ImplementationGuide-who.fhir.fp-cds.json"
+        },
+        "localPath": "output-ast/resources/ImplementationGuide/who.fhir.fp-cds--10de8077.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/deliverymethod",
+      "resourceType": "StructureDefinition",
+      "id": "deliverymethod",
+      "name": "deliveryMethod",
+      "title": "How contraceptive method is being provided",
+      "description": "How the client will receive the method, including onsite or if follow up is required. ",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/deliverymethod",
+      "version": "0.2.0",
+      "category": "Structures: Extension Definitions",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-deliverymethod.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/deliverymethod--59867c26.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-careplan-backup-contraceptive-method",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-careplan-backup-contraceptive-method",
+      "name": "WHO-FP CarePlan (Backup Contraceptive Method)",
+      "title": "WHO-FP CarePlan (Backup Contraceptive Method)",
+      "description": "Type of backup method provided",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-backup-contraceptive-method",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-careplan-backup-contraceptive-method.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-careplan-backup-contraceptive-method--73f371d8.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-careplan-exit-contraceptive-method",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-careplan-exit-contraceptive-method",
+      "name": "WHO-FP CarePlan (Exit Contraceptive Method)",
+      "title": "WHO-FP CarePlan (Exit Contraceptive Method)",
+      "description": "How the client will receive the method, including onsite or if follow up is required. ",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-exit-contraceptive-method",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-careplan-exit-contraceptive-method.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-careplan-exit-contraceptive-method--43a8b55c.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-careplan-recommendation",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-careplan-recommendation",
+      "name": "WHO-FP CarePlan (Recommendation)",
+      "title": "WHO-FP CarePlan (Recommendation)",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-recommendation",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-careplan-recommendation.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-careplan-recommendation--90d3a8fa.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-careplan-requested-contraceptive-method",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-careplan-requested-contraceptive-method",
+      "name": "WHO-FP CarePlan (Requested Contraceptive Method)",
+      "title": "WHO-FP CarePlan (Requested Contraceptive Method)",
+      "description": "The first pick of method desired by the client, prior to medical eligibility tests. This may be the method in mind or the method selected after discussing the full range of methods.",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-requested-contraceptive-method",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-careplan-requested-contraceptive-method.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-careplan-requested-contraceptive-method--eefdd99b.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-condition-medical-eligibility",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-condition-medical-eligibility",
+      "name": "WHO-FP Condition (Medical Eligibility)",
+      "title": "WHO-FP Condition (Medical Eligibility)",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-condition-medical-eligibility",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-condition-medical-eligibility.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-condition-medical-eligibility--e385016b.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-consent",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-consent",
+      "name": "WHO-FP Consent",
+      "title": "WHO-FP Consent",
+      "description": "Based on best practice and local laws and regulations.",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-consent",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-consent.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-consent--bd7ff66b.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-device-contraceptive-method",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-device-contraceptive-method",
+      "name": "WHO-FP Device (Contraceptive Method)",
+      "title": "WHO-FP Device (Contraceptive Method)",
+      "description": "A contraceptive device, typed by the WHO birth control device methods.",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-device-contraceptive-method",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-device-contraceptive-method.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-device-contraceptive-method--69571c9b.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-deviceusestatement-exit-contraceptive-method",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-deviceusestatement-exit-contraceptive-method",
+      "name": "WHO-FP DeviceUseStatement (Exit Contraceptive Method)",
+      "title": "WHO-FP DeviceUseStatement (Exit Contraceptive Method)",
+      "description": "Contraceptive method at exit reported.",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-deviceusestatement-exit-contraceptive-method",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-deviceusestatement-exit-contraceptive-method--96c4a446.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-deviceusestatement-requested-contraceptive-method",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-deviceusestatement-requested-contraceptive-method",
+      "name": "WHO-FP DeviceUseStatement (Requested Contraceptive Method)",
+      "title": "WHO-FP DeviceUseStatement (Requested Contraceptive Method)",
+      "description": "The first pick of method desired by the client, prior to medical eligibility tests. This may be the method in mind or the method selected after discussing the full range of methods. ",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-deviceusestatement-requested-contraceptive-method",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-deviceusestatement-requested-contraceptive-method.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-deviceusestatement-requested-contraceptive-method--2012bd70.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-encounter",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-encounter",
+      "name": "WHO-FP Encounter",
+      "title": "WHO-FP Encounter",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-encounter",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-encounter.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-encounter--f8898025.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-encounter-contraception-issues-and-concerns",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-encounter-contraception-issues-and-concerns",
+      "name": "WHO-FP Encounter (Contraception Issues and Concerns) ",
+      "title": "WHO-FP Encounter (Contraception Issues and Concerns) ",
+      "description": "Side effects or symptoms with current method, administration, missed pills and late injections\n \n",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-encounter-contraception-issues-and-concerns",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-encounter-contraception-issues-and-concerns.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-encounter-contraception-issues-and-concerns--5d48f288.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-healthcareservice",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-healthcareservice",
+      "name": "WHO-FP HealthcareService",
+      "title": "WHO-FP HealthcareService",
+      "description": "Whether a pregnancy test is available if guidelines recommend it",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-healthcareservice",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-healthcareservice.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-healthcareservice--cb22618f.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-medicationstatement-current-medication",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-medicationstatement-current-medication",
+      "name": "WHO-FP MedicationStatement (Current Medication)",
+      "title": "WHO-FP MedicationStatement (Current Medication)",
+      "description": "Determine if client is taking certain anticonvulsants, antimicrobials, and antiretrovirals, which may affect their medical eligibility, as well as if client is on antiretroviral therapy, pre-exposure prophylaxis, etc.",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-medicationstatement-current-medication",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-medicationstatement-current-medication.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-medicationstatement-current-medication--0f78f276.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-medicationstatement-exit-contraceptive-method",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-medicationstatement-exit-contraceptive-method",
+      "name": "WHO-FP MedicationStatement (Exit Contraceptive Method)",
+      "title": "WHO-FP MedicationStatement (Exit Contraceptive Method)",
+      "description": "Contraceptive method at exit reported.",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-medicationstatement-exit-contraceptive-method",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-medicationstatement-exit-contraceptive-method.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-medicationstatement-exit-contraceptive-method--d19c7024.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-medicationstatement-requested-contraceptive-method",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-medicationstatement-requested-contraceptive-method",
+      "name": "WHO-FP MedicationStatement (Requested Contraceptive Method)",
+      "title": "WHO-FP MedicationStatement (Requested Contraceptive Method)",
+      "description": "The first pick of method desired by the client, prior to medical eligibility tests. This may be the method in mind or the method selected after discussing the full range of methods.",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-medicationstatement-requested-contraceptive-method",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-medicationstatement-requested-contraceptive-method.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-medicationstatement-requested-contraceptive-method--2f29b478.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-observation-breastfeeding-status",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-observation-breastfeeding-status",
+      "name": "WHO-FP Observation (Breastfeeding Status)",
+      "title": "WHO-FP Observation (Breastfeeding Status)",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-breastfeeding-status",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-observation-breastfeeding-status.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-observation-breastfeeding-status--7c1be42e.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-observation-days-since-last-normal-menses",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-observation-days-since-last-normal-menses",
+      "name": "WHO-FP Observation (Days since Last Normal Menses)",
+      "title": "WHO-FP Observation (Days since Last Normal Menses)",
+      "description": "Count of days since her last normal period started",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-days-since-last-normal-menses",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-observation-days-since-last-normal-menses.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-observation-days-since-last-normal-menses--48db843c.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-observation-intercourse-since-last-normal-menses",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-observation-intercourse-since-last-normal-menses",
+      "name": "WHO-FP Observation (Intercourse since Last Normal Menses)",
+      "title": "WHO-FP Observation (Intercourse since Last Normal Menses)",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-intercourse-since-last-normal-menses",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-observation-intercourse-since-last-normal-menses.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-observation-intercourse-since-last-normal-menses--a6ba5c7e.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-observation-medical-eligibility",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-observation-medical-eligibility",
+      "name": "WHO-FP Observation (Medical Eligibility)",
+      "title": "WHO-FP Observation (Medical Eligibility)",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-medical-eligibility",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-observation-medical-eligibility.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-observation-medical-eligibility--dc7b30f8.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-observation-medical-eligibility-number",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-observation-medical-eligibility-number",
+      "name": "WHO-FP Observation (Medical eligibility number)",
+      "title": "WHO-FP Observation (Medical eligibility number)",
+      "description": "System generated medical eligibility value for numerical ratings",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-medical-eligibility-number",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-observation-medical-eligibility-number.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-observation-medical-eligibility-number--a6fd4da5.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-observation-medical-eligibility-text",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-observation-medical-eligibility-text",
+      "name": "WHO-FP Observation (Medical eligibility text)",
+      "title": "WHO-FP Observation (Medical eligibility text)",
+      "description": "System generated medical eligibility value for methods using text values",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-medical-eligibility-text",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-observation-medical-eligibility-text.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-observation-medical-eligibility-text--ab50f483.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-observation-missed-or-late-menses",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-observation-missed-or-late-menses",
+      "name": "WHO-FP Observation (Missed or Late Menses)",
+      "title": "WHO-FP Observation (Missed or Late Menses)",
+      "description": "If the woman's monthly bleeding was missed or is late",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-missed-or-late-menses",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-observation-missed-or-late-menses.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-observation-missed-or-late-menses--76b649dc.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-observation-pregnancy-intention",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-observation-pregnancy-intention",
+      "name": "WHO-FP Observation (Pregnancy Intention)",
+      "title": "WHO-FP Observation (Pregnancy Intention)",
+      "description": "Client's intention or desire in the next year to either become pregnant or prevent a future pregnancy. ",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-pregnancy-intention",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-observation-pregnancy-intention.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-observation-pregnancy-intention--c18e39fb.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-observation-reason-for-no-contraceptive-method-at-exit",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-observation-reason-for-no-contraceptive-method-at-exit",
+      "name": "WHO-FP Observation (Reason for no contraceptive method at exit)",
+      "title": "WHO-FP Observation (Reason for no contraceptive method at exit)",
+      "description": "Reason for no contraceptive method use reported –at exit",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-reason-for-no-contraceptive-method-at-exit",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-observation-reason-for-no-contraceptive-method-at-exit.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-observation-reason-for-no-contraceptive-method-at-exit--aa09dbd1.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-observation-reason-for-stopping-contraception",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-observation-reason-for-stopping-contraception",
+      "name": "WHO-FP Observation (Reason for Stopping Contraception)",
+      "title": "WHO-FP Observation (Reason for Stopping Contraception)",
+      "description": "If stopping a method, the reason why.",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-reason-for-stopping-contraception",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-observation-reason-for-stopping-contraception.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-observation-reason-for-stopping-contraception--00727732.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-observation-smoking-status",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-observation-smoking-status",
+      "name": "WHO-FP Observation (Smoking Status)",
+      "title": "WHO-FP Observation (Smoking Status)",
+      "description": "If the client smokes, indicate how heavily",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-smoking-status",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-observation-smoking-status.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-observation-smoking-status--68f7c291.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-observation-test-results",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-observation-test-results",
+      "name": "WHO-FP Observation (Test Results)",
+      "title": "WHO-FP Observation (Test Results)",
+      "description": "Results for any tests performed. ",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-test-results",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-observation-test-results.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-observation-test-results--a6f3e519.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-procedure-exit-contraceptive-method",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-procedure-exit-contraceptive-method",
+      "name": "WHO-FP Procedure (Exit Contraceptive Method)",
+      "title": "WHO-FP Procedure (Exit Contraceptive Method)",
+      "description": "Contraceptive method at exit reported.",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-procedure-exit-contraceptive-method",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-procedure-exit-contraceptive-method.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-procedure-exit-contraceptive-method--ce6e509b.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-procedure-requested-contraceptive-method",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-procedure-requested-contraceptive-method",
+      "name": "WHO-FP Procedure (Requested Contraceptive Method)",
+      "title": "WHO-FP Procedure (Requested Contraceptive Method)",
+      "description": "The first pick of method desired by the client, prior to medical eligibility tests. This may be the method in mind or the method selected after discussing the full range of methods.",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-procedure-requested-contraceptive-method",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-procedure-requested-contraceptive-method.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-procedure-requested-contraceptive-method--a5fd0142.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "StructureDefinition/who-fp-procedure-service-provided",
+      "resourceType": "StructureDefinition",
+      "id": "who-fp-procedure-service-provided",
+      "name": "WHO-FP Procedure (Service Provided)",
+      "title": "WHO-FP Procedure (Service Provided)",
+      "description": "An intrauterine device could not be inserted during the visit",
+      "canonical": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-procedure-service-provided",
+      "version": "0.2.0",
+      "category": "Structures: Resource Profiles",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/StructureDefinition-who-fp-procedure-service-provided.json"
+        },
+        "localPath": "output-ast/resources/StructureDefinition/who-fp-procedure-service-provided--414e4a6f.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "ValueSet/backupcontraceptivemethod-values",
+      "resourceType": "ValueSet",
+      "id": "backupcontraceptivemethod-values",
+      "name": "backupcontraceptivemethod-values",
+      "title": "Contraception backup method provided values",
+      "description": "Codes representing possible values for the Contraception backup method provided element",
+      "canonical": "http://fhir.org/guides/who/fp-cds/ValueSet/backupcontraceptivemethod-values",
+      "version": "0.2.0",
+      "category": "Terminology: Value Sets",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ValueSet-backupcontraceptivemethod-values.json"
+        },
+        "localPath": "output-ast/resources/ValueSet/backupcontraceptivemethod-values--342bb4d6.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "ValueSet/breastfeeding-status-values",
+      "resourceType": "ValueSet",
+      "id": "breastfeeding-status-values",
+      "name": "breastfeeding-status-values",
+      "title": "Breastfeeding status values",
+      "description": "Codes representing possible values for the Breastfeeding status element",
+      "canonical": "http://fhir.org/guides/who/fp-cds/ValueSet/breastfeeding-status-values",
+      "version": "0.2.0",
+      "category": "Terminology: Value Sets",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ValueSet-breastfeeding-status-values.json"
+        },
+        "localPath": "output-ast/resources/ValueSet/breastfeeding-status-values--46ebc903.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      },
+      "sidecars": {
+        "displays": {
+          "url": "fhir-artifact-index/sidecars/ValueSet-breastfeeding-status-values.displays.json",
+          "localPath": "fhir-artifact-index/sidecars/ValueSet-breastfeeding-status-values.displays.json",
+          "bytes": 1691
+        },
+        "jsonld": {
+          "url": "fhir-artifact-index/sidecars/ValueSet-breastfeeding-status-values.jsonld",
+          "localPath": "fhir-artifact-index/sidecars/ValueSet-breastfeeding-status-values.jsonld",
+          "bytes": 905
+        },
+        "openapi": {
+          "url": "fhir-artifact-index/sidecars/ValueSet-breastfeeding-status-values.openapi.json",
+          "localPath": "fhir-artifact-index/sidecars/ValueSet-breastfeeding-status-values.openapi.json",
+          "bytes": 2716
+        },
+        "schema": {
+          "url": "fhir-artifact-index/sidecars/ValueSet-breastfeeding-status-values.schema.json",
+          "localPath": "fhir-artifact-index/sidecars/ValueSet-breastfeeding-status-values.schema.json",
+          "bytes": 1456
+        }
+      }
+    },
+    {
+      "key": "ValueSet/cigarettes-smoked-per-day-values",
+      "resourceType": "ValueSet",
+      "id": "cigarettes-smoked-per-day-values",
+      "name": "cigarettes-smoked-per-day-values",
+      "title": "Cigarettes smoked per day values",
+      "description": "Codes representing possible values for the Cigarettes smoked per day element",
+      "canonical": "http://fhir.org/guides/who/fp-cds/ValueSet/cigarettes-smoked-per-day-values",
+      "version": "0.2.0",
+      "category": "Terminology: Value Sets",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ValueSet-cigarettes-smoked-per-day-values.json"
+        },
+        "localPath": "output-ast/resources/ValueSet/cigarettes-smoked-per-day-values--244fff07.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "ValueSet/contraception-issues-and-concerns-values",
+      "resourceType": "ValueSet",
+      "id": "contraception-issues-and-concerns-values",
+      "name": "contraception-issues-and-concerns-values",
+      "title": "Contraception Issues and concerns values",
+      "description": "Codes representing possible values for the Contraception Issues and concerns element",
+      "canonical": "http://fhir.org/guides/who/fp-cds/ValueSet/contraception-issues-and-concerns-values",
+      "version": "0.2.0",
+      "category": "Terminology: Value Sets",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ValueSet-contraception-issues-and-concerns-values.json"
+        },
+        "localPath": "output-ast/resources/ValueSet/contraception-issues-and-concerns-values--48386dc3.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "ValueSet/contraceptivedeliverymethod-values",
+      "resourceType": "ValueSet",
+      "id": "contraceptivedeliverymethod-values",
+      "name": "contraceptivedeliverymethod-values",
+      "title": "How contraceptive method is being provided values",
+      "description": "Codes representing possible values for the How contraceptive method is being provided element",
+      "canonical": "http://fhir.org/guides/who/fp-cds/ValueSet/contraceptivedeliverymethod-values",
+      "version": "0.2.0",
+      "category": "Terminology: Value Sets",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ValueSet-contraceptivedeliverymethod-values.json"
+        },
+        "localPath": "output-ast/resources/ValueSet/contraceptivedeliverymethod-values--223252a4.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      },
+      "sidecars": {
+        "displays": {
+          "url": "fhir-artifact-index/sidecars/ValueSet-contraceptivedeliverymethod-values.displays.json",
+          "localPath": "fhir-artifact-index/sidecars/ValueSet-contraceptivedeliverymethod-values.displays.json",
+          "bytes": 1799
+        },
+        "jsonld": {
+          "url": "fhir-artifact-index/sidecars/ValueSet-contraceptivedeliverymethod-values.jsonld",
+          "localPath": "fhir-artifact-index/sidecars/ValueSet-contraceptivedeliverymethod-values.jsonld",
+          "bytes": 984
+        },
+        "openapi": {
+          "url": "fhir-artifact-index/sidecars/ValueSet-contraceptivedeliverymethod-values.openapi.json",
+          "localPath": "fhir-artifact-index/sidecars/ValueSet-contraceptivedeliverymethod-values.openapi.json",
+          "bytes": 2922
+        },
+        "schema": {
+          "url": "fhir-artifact-index/sidecars/ValueSet-contraceptivedeliverymethod-values.schema.json",
+          "localPath": "fhir-artifact-index/sidecars/ValueSet-contraceptivedeliverymethod-values.schema.json",
+          "bytes": 1570
+        }
+      }
+    },
+    {
+      "key": "ValueSet/current-medications-values",
+      "resourceType": "ValueSet",
+      "id": "current-medications-values",
+      "name": "current-medications-values",
+      "title": "Current Medications values",
+      "description": "Codes representing possible values for the Current Medications element",
+      "canonical": "http://fhir.org/guides/who/fp-cds/ValueSet/current-medications-values",
+      "version": "0.2.0",
+      "category": "Terminology: Value Sets",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ValueSet-current-medications-values.json"
+        },
+        "localPath": "output-ast/resources/ValueSet/current-medications-values--41c541d0.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "ValueSet/fp-recommended-care-values",
+      "resourceType": "ValueSet",
+      "id": "fp-recommended-care-values",
+      "name": "fp-recommended-care-values",
+      "title": "FP Recommended Care values",
+      "description": "Codes representing possible values for the FP Recommended Care element",
+      "canonical": "http://fhir.org/guides/who/fp-cds/ValueSet/fp-recommended-care-values",
+      "version": "0.2.0",
+      "category": "Terminology: Value Sets",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ValueSet-fp-recommended-care-values.json"
+        },
+        "localPath": "output-ast/resources/ValueSet/fp-recommended-care-values--413bec1f.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "ValueSet/iud-insertion-status-values",
+      "resourceType": "ValueSet",
+      "id": "iud-insertion-status-values",
+      "name": "iud-insertion-status-values",
+      "title": "IUD Insertion status values",
+      "description": "Codes representing possible values for the IUD Insertion status element",
+      "canonical": "http://fhir.org/guides/who/fp-cds/ValueSet/iud-insertion-status-values",
+      "version": "0.2.0",
+      "category": "Terminology: Value Sets",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ValueSet-iud-insertion-status-values.json"
+        },
+        "localPath": "output-ast/resources/ValueSet/iud-insertion-status-values--bb949240.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      },
+      "sidecars": {
+        "displays": {
+          "url": "fhir-artifact-index/sidecars/ValueSet-iud-insertion-status-values.displays.json",
+          "localPath": "fhir-artifact-index/sidecars/ValueSet-iud-insertion-status-values.displays.json",
+          "bytes": 1685
+        },
+        "jsonld": {
+          "url": "fhir-artifact-index/sidecars/ValueSet-iud-insertion-status-values.jsonld",
+          "localPath": "fhir-artifact-index/sidecars/ValueSet-iud-insertion-status-values.jsonld",
+          "bytes": 909
+        },
+        "openapi": {
+          "url": "fhir-artifact-index/sidecars/ValueSet-iud-insertion-status-values.openapi.json",
+          "localPath": "fhir-artifact-index/sidecars/ValueSet-iud-insertion-status-values.openapi.json",
+          "bytes": 2725
+        },
+        "schema": {
+          "url": "fhir-artifact-index/sidecars/ValueSet-iud-insertion-status-values.schema.json",
+          "localPath": "fhir-artifact-index/sidecars/ValueSet-iud-insertion-status-values.schema.json",
+          "bytes": 1465
+        }
+      }
+    },
+    {
+      "key": "ValueSet/medical-eligibility-text-classification-values",
+      "resourceType": "ValueSet",
+      "id": "medical-eligibility-text-classification-values",
+      "name": "medical-eligibility-text-classification-values",
+      "title": "Medical eligibility - text classification values",
+      "description": "Codes representing possible values for the Medical eligibility - text classification element",
+      "canonical": "http://fhir.org/guides/who/fp-cds/ValueSet/medical-eligibility-text-classification-values",
+      "version": "0.2.0",
+      "category": "Terminology: Value Sets",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ValueSet-medical-eligibility-text-classification-values.json"
+        },
+        "localPath": "output-ast/resources/ValueSet/medical-eligibility-text-classification-values--e8b1b17a.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "ValueSet/medicaleligibilityconditions-values",
+      "resourceType": "ValueSet",
+      "id": "medicaleligibilityconditions-values",
+      "name": "medicaleligibilityconditions-values",
+      "title": "Current conditions affecting Medical Eligibility values",
+      "description": "Codes representing possible values for the Current conditions affecting Medical Eligibility element",
+      "canonical": "http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilityconditions-values",
+      "version": "0.2.0",
+      "category": "Terminology: Value Sets",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ValueSet-medicaleligibilityconditions-values.json"
+        },
+        "localPath": "output-ast/resources/ValueSet/medicaleligibilityconditions-values--79373709.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "ValueSet/medicaleligibilitynumber-values",
+      "resourceType": "ValueSet",
+      "id": "medicaleligibilitynumber-values",
+      "name": "medicaleligibilitynumber-values",
+      "title": "Medical eligibility - number classification values",
+      "description": "Codes representing possible values for the Medical eligibility - number classification element",
+      "canonical": "http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilitynumber-values",
+      "version": "0.2.0",
+      "category": "Terminology: Value Sets",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ValueSet-medicaleligibilitynumber-values.json"
+        },
+        "localPath": "output-ast/resources/ValueSet/medicaleligibilitynumber-values--be2013d4.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "ValueSet/medicaleligibilityobservations-values",
+      "resourceType": "ValueSet",
+      "id": "medicaleligibilityobservations-values",
+      "name": "medicaleligibilityobservations-values",
+      "title": "Observations affecting Medical Eligibility values",
+      "description": "Codes representing possible values for the Observations affecting Medical Eligibility element",
+      "canonical": "http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilityobservations-values",
+      "version": "0.2.0",
+      "category": "Terminology: Value Sets",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ValueSet-medicaleligibilityobservations-values.json"
+        },
+        "localPath": "output-ast/resources/ValueSet/medicaleligibilityobservations-values--edce5bab.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      }
+    },
+    {
+      "key": "ValueSet/pregnancy-intention-values",
+      "resourceType": "ValueSet",
+      "id": "pregnancy-intention-values",
+      "name": "pregnancy-intention-values",
+      "title": "Pregnancy intention values",
+      "description": "Codes representing possible values for the Pregnancy intention element",
+      "canonical": "http://fhir.org/guides/who/fp-cds/ValueSet/pregnancy-intention-values",
+      "version": "0.2.0",
+      "category": "Terminology: Value Sets",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ValueSet-pregnancy-intention-values.json"
+        },
+        "localPath": "output-ast/resources/ValueSet/pregnancy-intention-values--abe56184.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      },
+      "sidecars": {
+        "displays": {
+          "url": "fhir-artifact-index/sidecars/ValueSet-pregnancy-intention-values.displays.json",
+          "localPath": "fhir-artifact-index/sidecars/ValueSet-pregnancy-intention-values.displays.json",
+          "bytes": 1732
+        },
+        "jsonld": {
+          "url": "fhir-artifact-index/sidecars/ValueSet-pregnancy-intention-values.jsonld",
+          "localPath": "fhir-artifact-index/sidecars/ValueSet-pregnancy-intention-values.jsonld",
+          "bytes": 957
+        },
+        "openapi": {
+          "url": "fhir-artifact-index/sidecars/ValueSet-pregnancy-intention-values.openapi.json",
+          "localPath": "fhir-artifact-index/sidecars/ValueSet-pregnancy-intention-values.openapi.json",
+          "bytes": 2722
+        },
+        "schema": {
+          "url": "fhir-artifact-index/sidecars/ValueSet-pregnancy-intention-values.schema.json",
+          "localPath": "fhir-artifact-index/sidecars/ValueSet-pregnancy-intention-values.schema.json",
+          "bytes": 1464
+        }
+      }
+    },
+    {
+      "key": "ValueSet/reason-for-family-planning-visit-values",
+      "resourceType": "ValueSet",
+      "id": "reason-for-family-planning-visit-values",
+      "name": "reason-for-family-planning-visit-values",
+      "title": "Reason for family planning visit values",
+      "description": "Codes representing possible values for the Reason for family planning visit element",
+      "canonical": "http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-family-planning-visit-values",
+      "version": "0.2.0",
+      "category": "Terminology: Value Sets",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ValueSet-reason-for-family-planning-visit-values.json"
+        },
+        "localPath": "output-ast/resources/ValueSet/reason-for-family-planning-visit-values--d86822d3.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      },
+      "sidecars": {
+        "displays": {
+          "url": "fhir-artifact-index/sidecars/ValueSet-reason-for-family-planning-visit-values.displays.json",
+          "localPath": "fhir-artifact-index/sidecars/ValueSet-reason-for-family-planning-visit-values.displays.json",
+          "bytes": 2091
+        },
+        "jsonld": {
+          "url": "fhir-artifact-index/sidecars/ValueSet-reason-for-family-planning-visit-values.jsonld",
+          "localPath": "fhir-artifact-index/sidecars/ValueSet-reason-for-family-planning-visit-values.jsonld",
+          "bytes": 1599
+        },
+        "openapi": {
+          "url": "fhir-artifact-index/sidecars/ValueSet-reason-for-family-planning-visit-values.openapi.json",
+          "localPath": "fhir-artifact-index/sidecars/ValueSet-reason-for-family-planning-visit-values.openapi.json",
+          "bytes": 3489
+        },
+        "schema": {
+          "url": "fhir-artifact-index/sidecars/ValueSet-reason-for-family-planning-visit-values.schema.json",
+          "localPath": "fhir-artifact-index/sidecars/ValueSet-reason-for-family-planning-visit-values.schema.json",
+          "bytes": 1977
+        }
+      }
+    },
+    {
+      "key": "ValueSet/reason-for-no-method-at-exit-values",
+      "resourceType": "ValueSet",
+      "id": "reason-for-no-method-at-exit-values",
+      "name": "reason-for-no-method-at-exit-values",
+      "title": "Reason for no method at exit values",
+      "description": "Codes representing possible values for the Reason for no method at exit element",
+      "canonical": "http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-no-method-at-exit-values",
+      "version": "0.2.0",
+      "category": "Terminology: Value Sets",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ValueSet-reason-for-no-method-at-exit-values.json"
+        },
+        "localPath": "output-ast/resources/ValueSet/reason-for-no-method-at-exit-values--4aa9228b.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
+          "inputDigest": "6d5b0a0aff2fe789bcf9b0e544e4d2146ca7fe5adfee00b911a4c2536141e19b"
+        },
+        "materializedAt": "2026-11-10T20:34:38.737847120Z"
+      },
+      "sidecars": {
+        "displays": {
+          "url": "fhir-artifact-index/sidecars/ValueSet-reason-for-no-method-at-exit-values.displays.json",
+          "localPath": "fhir-artifact-index/sidecars/ValueSet-reason-for-no-method-at-exit-values.displays.json",
+          "bytes": 1900
+        },
+        "jsonld": {
+          "url": "fhir-artifact-index/sidecars/ValueSet-reason-for-no-method-at-exit-values.jsonld",
+          "localPath": "fhir-artifact-index/sidecars/ValueSet-reason-for-no-method-at-exit-values.jsonld",
+          "bytes": 1322
+        },
+        "openapi": {
+          "url": "fhir-artifact-index/sidecars/ValueSet-reason-for-no-method-at-exit-values.openapi.json",
+          "localPath": "fhir-artifact-index/sidecars/ValueSet-reason-for-no-method-at-exit-values.openapi.json",
+          "bytes": 3371
+        },
+        "schema": {
+          "url": "fhir-artifact-index/sidecars/ValueSet-reason-for-no-method-at-exit-values.schema.json",
+          "localPath": "fhir-artifact-index/sidecars/ValueSet-reason-for-no-method-at-exit-values.schema.json",
+          "bytes": 1903
+        }
+      }
+    }
+  ]
+}

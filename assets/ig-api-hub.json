@@ -1,0 +1,270 @@
+{
+  "@context": {
+    "schema": "https://schema.org/"
+  },
+  "@id": "assets/ig-api-hub.json",
+  "@type": "schema:WebAPI",
+  "schema:name": "IG API",
+  "schema:documentation": "openapi/",
+  "schema:hasPart": [
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-breastfeeding-status-values.displays.json",
+      "schema:additionalType": "Displays",
+      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-breastfeeding-status-values.displays.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-breastfeeding-status-values.html",
+        "schema:identifier": "ValueSet/breastfeeding-status-values"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-breastfeeding-status-values.jsonld",
+      "schema:additionalType": "JSON-LD",
+      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-breastfeeding-status-values.jsonld",
+      "schema:url": "artifact/ValueSet-breastfeeding-status-values.jsonld.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-breastfeeding-status-values.html",
+        "schema:identifier": "ValueSet/breastfeeding-status-values"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-breastfeeding-status-values.openapi.json",
+      "schema:additionalType": "OpenAPI",
+      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-breastfeeding-status-values.openapi.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-breastfeeding-status-values.html",
+        "schema:identifier": "ValueSet/breastfeeding-status-values"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-breastfeeding-status-values.schema.json",
+      "schema:additionalType": "JSON Schema",
+      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-breastfeeding-status-values.schema.json",
+      "schema:url": "artifact/ValueSet-breastfeeding-status-values.schema.json.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-breastfeeding-status-values.html",
+        "schema:identifier": "ValueSet/breastfeeding-status-values"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-contraceptivedeliverymethod-values.displays.json",
+      "schema:additionalType": "Displays",
+      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-contraceptivedeliverymethod-values.displays.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-contraceptivedeliverymethod-values.html",
+        "schema:identifier": "ValueSet/contraceptivedeliverymethod-values"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-contraceptivedeliverymethod-values.jsonld",
+      "schema:additionalType": "JSON-LD",
+      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-contraceptivedeliverymethod-values.jsonld",
+      "schema:url": "artifact/ValueSet-contraceptivedeliverymethod-values.jsonld.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-contraceptivedeliverymethod-values.html",
+        "schema:identifier": "ValueSet/contraceptivedeliverymethod-values"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-contraceptivedeliverymethod-values.openapi.json",
+      "schema:additionalType": "OpenAPI",
+      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-contraceptivedeliverymethod-values.openapi.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-contraceptivedeliverymethod-values.html",
+        "schema:identifier": "ValueSet/contraceptivedeliverymethod-values"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-contraceptivedeliverymethod-values.schema.json",
+      "schema:additionalType": "JSON Schema",
+      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-contraceptivedeliverymethod-values.schema.json",
+      "schema:url": "artifact/ValueSet-contraceptivedeliverymethod-values.schema.json.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-contraceptivedeliverymethod-values.html",
+        "schema:identifier": "ValueSet/contraceptivedeliverymethod-values"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-iud-insertion-status-values.displays.json",
+      "schema:additionalType": "Displays",
+      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-iud-insertion-status-values.displays.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-iud-insertion-status-values.html",
+        "schema:identifier": "ValueSet/iud-insertion-status-values"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-iud-insertion-status-values.jsonld",
+      "schema:additionalType": "JSON-LD",
+      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-iud-insertion-status-values.jsonld",
+      "schema:url": "artifact/ValueSet-iud-insertion-status-values.jsonld.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-iud-insertion-status-values.html",
+        "schema:identifier": "ValueSet/iud-insertion-status-values"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-iud-insertion-status-values.openapi.json",
+      "schema:additionalType": "OpenAPI",
+      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-iud-insertion-status-values.openapi.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-iud-insertion-status-values.html",
+        "schema:identifier": "ValueSet/iud-insertion-status-values"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-iud-insertion-status-values.schema.json",
+      "schema:additionalType": "JSON Schema",
+      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-iud-insertion-status-values.schema.json",
+      "schema:url": "artifact/ValueSet-iud-insertion-status-values.schema.json.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-iud-insertion-status-values.html",
+        "schema:identifier": "ValueSet/iud-insertion-status-values"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-pregnancy-intention-values.displays.json",
+      "schema:additionalType": "Displays",
+      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-pregnancy-intention-values.displays.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-pregnancy-intention-values.html",
+        "schema:identifier": "ValueSet/pregnancy-intention-values"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-pregnancy-intention-values.jsonld",
+      "schema:additionalType": "JSON-LD",
+      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-pregnancy-intention-values.jsonld",
+      "schema:url": "artifact/ValueSet-pregnancy-intention-values.jsonld.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-pregnancy-intention-values.html",
+        "schema:identifier": "ValueSet/pregnancy-intention-values"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-pregnancy-intention-values.openapi.json",
+      "schema:additionalType": "OpenAPI",
+      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-pregnancy-intention-values.openapi.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-pregnancy-intention-values.html",
+        "schema:identifier": "ValueSet/pregnancy-intention-values"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-pregnancy-intention-values.schema.json",
+      "schema:additionalType": "JSON Schema",
+      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-pregnancy-intention-values.schema.json",
+      "schema:url": "artifact/ValueSet-pregnancy-intention-values.schema.json.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-pregnancy-intention-values.html",
+        "schema:identifier": "ValueSet/pregnancy-intention-values"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-reason-for-family-planning-visit-values.displays.json",
+      "schema:additionalType": "Displays",
+      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-reason-for-family-planning-visit-values.displays.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-reason-for-family-planning-visit-values.html",
+        "schema:identifier": "ValueSet/reason-for-family-planning-visit-values"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-reason-for-family-planning-visit-values.jsonld",
+      "schema:additionalType": "JSON-LD",
+      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-reason-for-family-planning-visit-values.jsonld",
+      "schema:url": "artifact/ValueSet-reason-for-family-planning-visit-values.jsonld.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-reason-for-family-planning-visit-values.html",
+        "schema:identifier": "ValueSet/reason-for-family-planning-visit-values"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-reason-for-family-planning-visit-values.openapi.json",
+      "schema:additionalType": "OpenAPI",
+      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-reason-for-family-planning-visit-values.openapi.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-reason-for-family-planning-visit-values.html",
+        "schema:identifier": "ValueSet/reason-for-family-planning-visit-values"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-reason-for-family-planning-visit-values.schema.json",
+      "schema:additionalType": "JSON Schema",
+      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-reason-for-family-planning-visit-values.schema.json",
+      "schema:url": "artifact/ValueSet-reason-for-family-planning-visit-values.schema.json.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-reason-for-family-planning-visit-values.html",
+        "schema:identifier": "ValueSet/reason-for-family-planning-visit-values"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-reason-for-no-method-at-exit-values.displays.json",
+      "schema:additionalType": "Displays",
+      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-reason-for-no-method-at-exit-values.displays.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-reason-for-no-method-at-exit-values.html",
+        "schema:identifier": "ValueSet/reason-for-no-method-at-exit-values"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-reason-for-no-method-at-exit-values.jsonld",
+      "schema:additionalType": "JSON-LD",
+      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-reason-for-no-method-at-exit-values.jsonld",
+      "schema:url": "artifact/ValueSet-reason-for-no-method-at-exit-values.jsonld.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-reason-for-no-method-at-exit-values.html",
+        "schema:identifier": "ValueSet/reason-for-no-method-at-exit-values"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-reason-for-no-method-at-exit-values.openapi.json",
+      "schema:additionalType": "OpenAPI",
+      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-reason-for-no-method-at-exit-values.openapi.json",
+      "schema:about": {
+        "@id": "artifact/ValueSet-reason-for-no-method-at-exit-values.html",
+        "schema:identifier": "ValueSet/reason-for-no-method-at-exit-values"
+      }
+    },
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSet-reason-for-no-method-at-exit-values.schema.json",
+      "schema:additionalType": "JSON Schema",
+      "schema:contentUrl": "fhir-artifact-index/sidecars/ValueSet-reason-for-no-method-at-exit-values.schema.json",
+      "schema:url": "artifact/ValueSet-reason-for-no-method-at-exit-values.schema.json.html",
+      "schema:about": {
+        "@id": "artifact/ValueSet-reason-for-no-method-at-exit-values.html",
+        "schema:identifier": "ValueSet/reason-for-no-method-at-exit-values"
+      }
+    }
+  ],
+  "schema:workExample": [
+    {
+      "@type": "schema:DigitalDocument",
+      "schema:name": "ValueSets.schema.json",
+      "schema:contentUrl": "ValueSets.schema.json"
+    }
+  ]
+}

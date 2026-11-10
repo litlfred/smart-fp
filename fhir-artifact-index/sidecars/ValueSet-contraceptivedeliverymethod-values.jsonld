@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@base": "http://fhir.org/guides/who/fp-cds/ValueSet-contraceptivedeliverymethod-values.jsonld",
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "fhir:CodeSystem": {
+      "@type": "@id"
+    },
+    "cs": "http://snomed.info/sct"
+  },
+  "@id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraceptivedeliverymethod-values.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-11-10T20:34:38.737847120Z",
+  "@graph": [
+    {
+      "id": "#308335008",
+      "name": "Patient encounter procedure"
+    },
+    {
+      "id": "#281100006",
+      "name": "Referral to health worker"
+    },
+    {
+      "id": "#16076005",
+      "name": "Prescription"
+    }
+  ],
+  "fhir:CodeSystem": "cs"
+}
