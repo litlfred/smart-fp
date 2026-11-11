@@ -2,14 +2,14 @@
   "$schema": "folio-site-build/v1",
   "instance": "smart-fp",
   "platform": {
-    "commit": "3ef7ce3db54f709bc559fb458fa5b6e4fb6baa78"
+    "commit": "1a7c91e0b70e6791d29debdc60d8c8ccd6dbd3a9"
   },
   "source": {
     "repo": "litlfred/smart-fp",
     "ref": "master",
-    "commit": "8a92b469c937109372d5d4b2899d8ec88b7472c3"
+    "commit": "36bb4078b6e345b86cefeb308443af9b36b1d279"
   },
-  "builtAt": "2026-11-10T23:39:36.409Z",
+  "builtAt": "2026-11-11T00:15:46.446Z",
   "ast": {
     "commit": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
     "verdict": "valid",
