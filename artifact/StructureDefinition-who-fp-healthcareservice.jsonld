@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "StructureDefinition-who-fp-healthcareservice.jsonld",
+  "@id": "StructureDefinition-who-fp-healthcareservice",
   "@type": "fhir:StructureDefinition",
   "dcterms:identifier": "StructureDefinition/who-fp-healthcareservice",
   "schema:name": "WHO-FP HealthcareService",

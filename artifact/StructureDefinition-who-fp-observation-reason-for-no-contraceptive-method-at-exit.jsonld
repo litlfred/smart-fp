@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "StructureDefinition-who-fp-observation-reason-for-no-contraceptive-method-at-exit.jsonld",
+  "@id": "StructureDefinition-who-fp-observation-reason-for-no-contraceptive-method-at-exit",
   "@type": "fhir:StructureDefinition",
   "dcterms:identifier": "StructureDefinition/who-fp-observation-reason-for-no-contraceptive-method-at-exit",
   "schema:name": "WHO-FP Observation (Reason for no contraceptive method at exit)",

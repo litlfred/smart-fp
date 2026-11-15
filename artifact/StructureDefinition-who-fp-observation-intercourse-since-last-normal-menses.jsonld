@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "StructureDefinition-who-fp-observation-intercourse-since-last-normal-menses.jsonld",
+  "@id": "StructureDefinition-who-fp-observation-intercourse-since-last-normal-menses",
   "@type": "fhir:StructureDefinition",
   "dcterms:identifier": "StructureDefinition/who-fp-observation-intercourse-since-last-normal-menses",
   "schema:name": "WHO-FP Observation (Intercourse since Last Normal Menses)",

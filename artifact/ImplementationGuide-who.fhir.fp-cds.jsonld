@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "ImplementationGuide-who.fhir.fp-cds.jsonld",
+  "@id": "ImplementationGuide-who.fhir.fp-cds",
   "@type": "fhir:ImplementationGuide",
   "dcterms:identifier": "ImplementationGuide/who.fhir.fp-cds",
   "schema:name": "FPCDS",

@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "StructureDefinition-who-fp-observation-medical-eligibility-text.jsonld",
+  "@id": "StructureDefinition-who-fp-observation-medical-eligibility-text",
   "@type": "fhir:StructureDefinition",
   "dcterms:identifier": "StructureDefinition/who-fp-observation-medical-eligibility-text",
   "schema:name": "WHO-FP Observation (Medical eligibility text)",

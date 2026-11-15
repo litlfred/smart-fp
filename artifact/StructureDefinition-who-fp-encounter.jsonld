@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "StructureDefinition-who-fp-encounter.jsonld",
+  "@id": "StructureDefinition-who-fp-encounter",
   "@type": "fhir:StructureDefinition",
   "dcterms:identifier": "StructureDefinition/who-fp-encounter",
   "schema:name": "WHO-FP Encounter",

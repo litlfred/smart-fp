@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "ValueSet-fp-recommended-care-values.jsonld",
+  "@id": "ValueSet-fp-recommended-care-values",
   "@type": "fhir:ValueSet",
   "dcterms:identifier": "ValueSet/fp-recommended-care-values",
   "schema:name": "fp-recommended-care-values",

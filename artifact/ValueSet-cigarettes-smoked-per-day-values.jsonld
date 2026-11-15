@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "ValueSet-cigarettes-smoked-per-day-values.jsonld",
+  "@id": "ValueSet-cigarettes-smoked-per-day-values",
   "@type": "fhir:ValueSet",
   "dcterms:identifier": "ValueSet/cigarettes-smoked-per-day-values",
   "schema:name": "cigarettes-smoked-per-day-values",

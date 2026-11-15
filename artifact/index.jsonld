@@ -17,7 +17,7 @@
   "schema:numberOfItems": 48,
   "schema:hasPart": [
     {
-      "@id": "CodeSystem-extended-content-codes.jsonld",
+      "@id": "CodeSystem-extended-content-codes",
       "@type": "fhir:CodeSystem",
       "dcterms:identifier": "CodeSystem/extended-content-codes",
       "dcterms:title": "Extended Codes CodeSystem codes",
@@ -32,7 +32,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-deliverymethod.jsonld",
+      "@id": "StructureDefinition-deliverymethod",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/deliverymethod",
       "dcterms:title": "How contraceptive method is being provided",
@@ -47,7 +47,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-careplan-backup-contraceptive-method.jsonld",
+      "@id": "StructureDefinition-who-fp-careplan-backup-contraceptive-method",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-careplan-backup-contraceptive-method",
       "dcterms:title": "WHO-FP CarePlan (Backup Contraceptive Method)",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-careplan-exit-contraceptive-method.jsonld",
+      "@id": "StructureDefinition-who-fp-careplan-exit-contraceptive-method",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-careplan-exit-contraceptive-method",
       "dcterms:title": "WHO-FP CarePlan (Exit Contraceptive Method)",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-careplan-recommendation.jsonld",
+      "@id": "StructureDefinition-who-fp-careplan-recommendation",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-careplan-recommendation",
       "dcterms:title": "WHO-FP CarePlan (Recommendation)",
@@ -88,7 +88,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-careplan-requested-contraceptive-method.jsonld",
+      "@id": "StructureDefinition-who-fp-careplan-requested-contraceptive-method",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-careplan-requested-contraceptive-method",
       "dcterms:title": "WHO-FP CarePlan (Requested Contraceptive Method)",
@@ -102,7 +102,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-condition-medical-eligibility.jsonld",
+      "@id": "StructureDefinition-who-fp-condition-medical-eligibility",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-condition-medical-eligibility",
       "dcterms:title": "WHO-FP Condition (Medical Eligibility)",
@@ -115,7 +115,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-consent.jsonld",
+      "@id": "StructureDefinition-who-fp-consent",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-consent",
       "dcterms:title": "WHO-FP Consent",
@@ -129,7 +129,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-device-contraceptive-method.jsonld",
+      "@id": "StructureDefinition-who-fp-device-contraceptive-method",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-device-contraceptive-method",
       "dcterms:title": "WHO-FP Device (Contraceptive Method)",
@@ -143,7 +143,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method.jsonld",
+      "@id": "StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-deviceusestatement-exit-contraceptive-method",
       "dcterms:title": "WHO-FP DeviceUseStatement (Exit Contraceptive Method)",
@@ -157,7 +157,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-deviceusestatement-requested-contraceptive-method.jsonld",
+      "@id": "StructureDefinition-who-fp-deviceusestatement-requested-contraceptive-method",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-deviceusestatement-requested-contraceptive-method",
       "dcterms:title": "WHO-FP DeviceUseStatement (Requested Contraceptive Method)",
@@ -171,7 +171,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-encounter.jsonld",
+      "@id": "StructureDefinition-who-fp-encounter",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-encounter",
       "dcterms:title": "WHO-FP Encounter",
@@ -184,7 +184,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-encounter-contraception-issues-and-concerns.jsonld",
+      "@id": "StructureDefinition-who-fp-encounter-contraception-issues-and-concerns",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-encounter-contraception-issues-and-concerns",
       "dcterms:title": "WHO-FP Encounter (Contraception Issues and Concerns) ",
@@ -198,7 +198,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-healthcareservice.jsonld",
+      "@id": "StructureDefinition-who-fp-healthcareservice",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-healthcareservice",
       "dcterms:title": "WHO-FP HealthcareService",
@@ -212,7 +212,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-medicationstatement-current-medication.jsonld",
+      "@id": "StructureDefinition-who-fp-medicationstatement-current-medication",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-medicationstatement-current-medication",
       "dcterms:title": "WHO-FP MedicationStatement (Current Medication)",
@@ -226,7 +226,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-medicationstatement-exit-contraceptive-method.jsonld",
+      "@id": "StructureDefinition-who-fp-medicationstatement-exit-contraceptive-method",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-medicationstatement-exit-contraceptive-method",
       "dcterms:title": "WHO-FP MedicationStatement (Exit Contraceptive Method)",
@@ -240,7 +240,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-medicationstatement-requested-contraceptive-method.jsonld",
+      "@id": "StructureDefinition-who-fp-medicationstatement-requested-contraceptive-method",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-medicationstatement-requested-contraceptive-method",
       "dcterms:title": "WHO-FP MedicationStatement (Requested Contraceptive Method)",
@@ -254,7 +254,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-observation-breastfeeding-status.jsonld",
+      "@id": "StructureDefinition-who-fp-observation-breastfeeding-status",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-observation-breastfeeding-status",
       "dcterms:title": "WHO-FP Observation (Breastfeeding Status)",
@@ -267,7 +267,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-observation-days-since-last-normal-menses.jsonld",
+      "@id": "StructureDefinition-who-fp-observation-days-since-last-normal-menses",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-observation-days-since-last-normal-menses",
       "dcterms:title": "WHO-FP Observation (Days since Last Normal Menses)",
@@ -281,7 +281,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-observation-intercourse-since-last-normal-menses.jsonld",
+      "@id": "StructureDefinition-who-fp-observation-intercourse-since-last-normal-menses",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-observation-intercourse-since-last-normal-menses",
       "dcterms:title": "WHO-FP Observation (Intercourse since Last Normal Menses)",
@@ -294,7 +294,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-observation-medical-eligibility.jsonld",
+      "@id": "StructureDefinition-who-fp-observation-medical-eligibility",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-observation-medical-eligibility",
       "dcterms:title": "WHO-FP Observation (Medical Eligibility)",
@@ -307,7 +307,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-observation-medical-eligibility-number.jsonld",
+      "@id": "StructureDefinition-who-fp-observation-medical-eligibility-number",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-observation-medical-eligibility-number",
       "dcterms:title": "WHO-FP Observation (Medical eligibility number)",
@@ -321,7 +321,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-observation-medical-eligibility-text.jsonld",
+      "@id": "StructureDefinition-who-fp-observation-medical-eligibility-text",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-observation-medical-eligibility-text",
       "dcterms:title": "WHO-FP Observation (Medical eligibility text)",
@@ -335,7 +335,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-observation-missed-or-late-menses.jsonld",
+      "@id": "StructureDefinition-who-fp-observation-missed-or-late-menses",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-observation-missed-or-late-menses",
       "dcterms:title": "WHO-FP Observation (Missed or Late Menses)",
@@ -349,7 +349,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-observation-pregnancy-intention.jsonld",
+      "@id": "StructureDefinition-who-fp-observation-pregnancy-intention",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-observation-pregnancy-intention",
       "dcterms:title": "WHO-FP Observation (Pregnancy Intention)",
@@ -363,7 +363,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-observation-reason-for-no-contraceptive-method-at-exit.jsonld",
+      "@id": "StructureDefinition-who-fp-observation-reason-for-no-contraceptive-method-at-exit",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-observation-reason-for-no-contraceptive-method-at-exit",
       "dcterms:title": "WHO-FP Observation (Reason for no contraceptive method at exit)",
@@ -377,7 +377,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-observation-reason-for-stopping-contraception.jsonld",
+      "@id": "StructureDefinition-who-fp-observation-reason-for-stopping-contraception",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-observation-reason-for-stopping-contraception",
       "dcterms:title": "WHO-FP Observation (Reason for Stopping Contraception)",
@@ -391,7 +391,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-observation-smoking-status.jsonld",
+      "@id": "StructureDefinition-who-fp-observation-smoking-status",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-observation-smoking-status",
       "dcterms:title": "WHO-FP Observation (Smoking Status)",
@@ -405,7 +405,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-observation-test-results.jsonld",
+      "@id": "StructureDefinition-who-fp-observation-test-results",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-observation-test-results",
       "dcterms:title": "WHO-FP Observation (Test Results)",
@@ -419,7 +419,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-procedure-exit-contraceptive-method.jsonld",
+      "@id": "StructureDefinition-who-fp-procedure-exit-contraceptive-method",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-procedure-exit-contraceptive-method",
       "dcterms:title": "WHO-FP Procedure (Exit Contraceptive Method)",
@@ -433,7 +433,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-procedure-requested-contraceptive-method.jsonld",
+      "@id": "StructureDefinition-who-fp-procedure-requested-contraceptive-method",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-procedure-requested-contraceptive-method",
       "dcterms:title": "WHO-FP Procedure (Requested Contraceptive Method)",
@@ -447,7 +447,7 @@
       }
     },
     {
-      "@id": "StructureDefinition-who-fp-procedure-service-provided.jsonld",
+      "@id": "StructureDefinition-who-fp-procedure-service-provided",
       "@type": "fhir:StructureDefinition",
       "dcterms:identifier": "StructureDefinition/who-fp-procedure-service-provided",
       "dcterms:title": "WHO-FP Procedure (Service Provided)",
@@ -461,7 +461,7 @@
       }
     },
     {
-      "@id": "ValueSet-backupcontraceptivemethod-values.jsonld",
+      "@id": "ValueSet-backupcontraceptivemethod-values",
       "@type": "fhir:ValueSet",
       "dcterms:identifier": "ValueSet/backupcontraceptivemethod-values",
       "dcterms:title": "Contraception backup method provided values",
@@ -475,7 +475,7 @@
       }
     },
     {
-      "@id": "ValueSet-breastfeeding-status-values.jsonld",
+      "@id": "ValueSet-breastfeeding-status-values",
       "@type": "fhir:ValueSet",
       "dcterms:identifier": "ValueSet/breastfeeding-status-values",
       "dcterms:title": "Breastfeeding status values",
@@ -489,7 +489,7 @@
       }
     },
     {
-      "@id": "ValueSet-cigarettes-smoked-per-day-values.jsonld",
+      "@id": "ValueSet-cigarettes-smoked-per-day-values",
       "@type": "fhir:ValueSet",
       "dcterms:identifier": "ValueSet/cigarettes-smoked-per-day-values",
       "dcterms:title": "Cigarettes smoked per day values",
@@ -503,7 +503,7 @@
       }
     },
     {
-      "@id": "ValueSet-contraception-issues-and-concerns-values.jsonld",
+      "@id": "ValueSet-contraception-issues-and-concerns-values",
       "@type": "fhir:ValueSet",
       "dcterms:identifier": "ValueSet/contraception-issues-and-concerns-values",
       "dcterms:title": "Contraception Issues and concerns values",
@@ -517,7 +517,7 @@
       }
     },
     {
-      "@id": "ValueSet-contraceptivedeliverymethod-values.jsonld",
+      "@id": "ValueSet-contraceptivedeliverymethod-values",
       "@type": "fhir:ValueSet",
       "dcterms:identifier": "ValueSet/contraceptivedeliverymethod-values",
       "dcterms:title": "How contraceptive method is being provided values",
@@ -531,7 +531,7 @@
       }
     },
     {
-      "@id": "ValueSet-current-medications-values.jsonld",
+      "@id": "ValueSet-current-medications-values",
       "@type": "fhir:ValueSet",
       "dcterms:identifier": "ValueSet/current-medications-values",
       "dcterms:title": "Current Medications values",
@@ -545,7 +545,7 @@
       }
     },
     {
-      "@id": "ValueSet-fp-recommended-care-values.jsonld",
+      "@id": "ValueSet-fp-recommended-care-values",
       "@type": "fhir:ValueSet",
       "dcterms:identifier": "ValueSet/fp-recommended-care-values",
       "dcterms:title": "FP Recommended Care values",
@@ -559,7 +559,7 @@
       }
     },
     {
-      "@id": "ValueSet-iud-insertion-status-values.jsonld",
+      "@id": "ValueSet-iud-insertion-status-values",
       "@type": "fhir:ValueSet",
       "dcterms:identifier": "ValueSet/iud-insertion-status-values",
       "dcterms:title": "IUD Insertion status values",
@@ -573,7 +573,7 @@
       }
     },
     {
-      "@id": "ValueSet-medical-eligibility-text-classification-values.jsonld",
+      "@id": "ValueSet-medical-eligibility-text-classification-values",
       "@type": "fhir:ValueSet",
       "dcterms:identifier": "ValueSet/medical-eligibility-text-classification-values",
       "dcterms:title": "Medical eligibility - text classification values",
@@ -587,7 +587,7 @@
       }
     },
     {
-      "@id": "ValueSet-medicaleligibilityconditions-values.jsonld",
+      "@id": "ValueSet-medicaleligibilityconditions-values",
       "@type": "fhir:ValueSet",
       "dcterms:identifier": "ValueSet/medicaleligibilityconditions-values",
       "dcterms:title": "Current conditions affecting Medical Eligibility values",
@@ -601,7 +601,7 @@
       }
     },
     {
-      "@id": "ValueSet-medicaleligibilitynumber-values.jsonld",
+      "@id": "ValueSet-medicaleligibilitynumber-values",
       "@type": "fhir:ValueSet",
       "dcterms:identifier": "ValueSet/medicaleligibilitynumber-values",
       "dcterms:title": "Medical eligibility - number classification values",
@@ -615,7 +615,7 @@
       }
     },
     {
-      "@id": "ValueSet-medicaleligibilityobservations-values.jsonld",
+      "@id": "ValueSet-medicaleligibilityobservations-values",
       "@type": "fhir:ValueSet",
       "dcterms:identifier": "ValueSet/medicaleligibilityobservations-values",
       "dcterms:title": "Observations affecting Medical Eligibility values",
@@ -629,7 +629,7 @@
       }
     },
     {
-      "@id": "ValueSet-pregnancy-intention-values.jsonld",
+      "@id": "ValueSet-pregnancy-intention-values",
       "@type": "fhir:ValueSet",
       "dcterms:identifier": "ValueSet/pregnancy-intention-values",
       "dcterms:title": "Pregnancy intention values",
@@ -643,7 +643,7 @@
       }
     },
     {
-      "@id": "ValueSet-reason-for-family-planning-visit-values.jsonld",
+      "@id": "ValueSet-reason-for-family-planning-visit-values",
       "@type": "fhir:ValueSet",
       "dcterms:identifier": "ValueSet/reason-for-family-planning-visit-values",
       "dcterms:title": "Reason for family planning visit values",
@@ -657,7 +657,7 @@
       }
     },
     {
-      "@id": "ValueSet-reason-for-no-method-at-exit-values.jsonld",
+      "@id": "ValueSet-reason-for-no-method-at-exit-values",
       "@type": "fhir:ValueSet",
       "dcterms:identifier": "ValueSet/reason-for-no-method-at-exit-values",
       "dcterms:title": "Reason for no method at exit values",
@@ -671,7 +671,7 @@
       }
     },
     {
-      "@id": "ImplementationGuide-who.fhir.fp-cds.jsonld",
+      "@id": "ImplementationGuide-who.fhir.fp-cds",
       "@type": "fhir:ImplementationGuide",
       "dcterms:identifier": "ImplementationGuide/who.fhir.fp-cds",
       "dcterms:title": "WHO Family Planning Implementation Guide",

@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method.jsonld",
+  "@id": "StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method",
   "@type": "fhir:StructureDefinition",
   "dcterms:identifier": "StructureDefinition/who-fp-deviceusestatement-exit-contraceptive-method",
   "schema:name": "WHO-FP DeviceUseStatement (Exit Contraceptive Method)",

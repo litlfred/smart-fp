@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "ValueSet-current-medications-values.jsonld",
+  "@id": "ValueSet-current-medications-values",
   "@type": "fhir:ValueSet",
   "dcterms:identifier": "ValueSet/current-medications-values",
   "schema:name": "current-medications-values",

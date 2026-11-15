@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "StructureDefinition-who-fp-procedure-service-provided.jsonld",
+  "@id": "StructureDefinition-who-fp-procedure-service-provided",
   "@type": "fhir:StructureDefinition",
   "dcterms:identifier": "StructureDefinition/who-fp-procedure-service-provided",
   "schema:name": "WHO-FP Procedure (Service Provided)",

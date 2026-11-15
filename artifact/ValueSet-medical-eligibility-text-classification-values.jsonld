@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "ValueSet-medical-eligibility-text-classification-values.jsonld",
+  "@id": "ValueSet-medical-eligibility-text-classification-values",
   "@type": "fhir:ValueSet",
   "dcterms:identifier": "ValueSet/medical-eligibility-text-classification-values",
   "schema:name": "medical-eligibility-text-classification-values",

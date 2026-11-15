@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "ValueSet-reason-for-no-method-at-exit-values.jsonld",
+  "@id": "ValueSet-reason-for-no-method-at-exit-values",
   "@type": "fhir:ValueSet",
   "dcterms:identifier": "ValueSet/reason-for-no-method-at-exit-values",
   "schema:name": "reason-for-no-method-at-exit-values",

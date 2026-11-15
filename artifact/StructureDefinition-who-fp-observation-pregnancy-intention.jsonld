@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "StructureDefinition-who-fp-observation-pregnancy-intention.jsonld",
+  "@id": "StructureDefinition-who-fp-observation-pregnancy-intention",
   "@type": "fhir:StructureDefinition",
   "dcterms:identifier": "StructureDefinition/who-fp-observation-pregnancy-intention",
   "schema:name": "WHO-FP Observation (Pregnancy Intention)",

@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "StructureDefinition-who-fp-observation-missed-or-late-menses.jsonld",
+  "@id": "StructureDefinition-who-fp-observation-missed-or-late-menses",
   "@type": "fhir:StructureDefinition",
   "dcterms:identifier": "StructureDefinition/who-fp-observation-missed-or-late-menses",
   "schema:name": "WHO-FP Observation (Missed or Late Menses)",
