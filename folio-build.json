@@ -6,10 +6,10 @@
   },
   "source": {
     "repo": "litlfred/smart-fp",
-    "ref": "master",
+    "ref": "main",
     "commit": "1322b7c0110c1cbdccb28a22ef5512fa7d19c5d0"
   },
-  "builtAt": "2026-11-15T17:19:23.480Z",
+  "builtAt": "2026-11-17T23:51:04.639Z",
   "ast": {
     "commit": "2af289d790fa9ab0ff43cc906c74d293bd29c34e",
     "verdict": "valid",
