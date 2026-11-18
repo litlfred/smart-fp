@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/"
+  },
+  "@id": "https://litlfred.github.io/smart-fp/en/cat-harness/harness/smart-base/",
+  "url": "https://litlfred.github.io/smart-fp/en/cat-harness/harness/smart-base/",
+  "@type": "WebPage",
+  "name": "SMART Base on WHO Family Planning Implementation Guide",
+  "about": {
+    "@id": "https://litlfred.github.io/smart-base/",
+    "@type": "SoftwareSourceCode",
+    "identifier": "smart-base",
+    "name": "SMART Base",
+    "description": "The WHO SMART Guidelines base layer — the ingested WHO digital-health corpus, the methodologies read out of it, and the editorial voices derived from it.",
+    "version": "0.1.0",
+    "codeRepository": "https://github.com/litlfred/smart-base",
+    "isBasedOn": [
+      {
+        "@id": "https://litlfred.github.io/fhir-harness/"
+      },
+      {
+        "@id": "https://worldhealthorganization.github.io/who-iris/"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "name": "pinnedCommit",
+      "value": "c4f318e7f34be3f93f8b7ddbc6173cf09be3f32b"
+    },
+    "keywords": [
+      "dak"
+    ]
+  },
+  "isPartOf": {
+    "@id": "https://litlfred.github.io/smart-fp/",
+    "name": "WHO Family Planning Implementation Guide"
+  },
+  "significantLink": [
+    "https://litlfred.github.io/folio-assistant/#harness-smart-base",
+    "https://github.com/litlfred/smart-base/tree/c4f318e7f34be3f93f8b7ddbc6173cf09be3f32b",
+    "https://github.com/litlfred/smart-base/blob/c4f318e7f34be3f93f8b7ddbc6173cf09be3f32b/README.md",
+    "https://github.com/litlfred/smart-base/blob/c4f318e7f34be3f93f8b7ddbc6173cf09be3f32b/AGENTS.md"
+  ]
+}

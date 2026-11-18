@@ -4,6 +4,7 @@
   "title": "who.fhir.fp-cds — artefact index (from the IG Publisher AST cache)",
   "packageId": "who.fhir.fp-cds",
   "version": "0.2.0",
+  "status": "draft",
   "canonicalBase": "http://fhir.org/guides/who/fp-cds",
   "source": {
     "kind": "output",

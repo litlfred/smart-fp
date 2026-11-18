@@ -93,8 +93,8 @@
 <meta name="fa-glass-strip" content="[&quot;glass-todos&quot;,&quot;glass-settings&quot;,&quot;library&quot;,&quot;tools&quot;]"><meta name="fa-baseurl" content="../../../.."><meta name="fa-staging" content=""><meta name="fa-search-index" content="">
 
 <meta name="fa-beans-src" content="../../../../assets/beans/index.json"><meta name="fa-processes-src" content="../../../../subgraph/index.jsonld"><meta name="fa-build-src" content="../../../../build.json"><link rel="stylesheet" href="../../../../assets/css/navbar-row.css?v=263225e79ed9">
-<link rel="stylesheet" href="../../../../assets/css/docs-ui.css?v=cc59a4b4ce11"><link rel="stylesheet" href="../../../../assets/css/narrow-viewport.css?v=173ef819dbf2"><link rel="stylesheet" href="../../../../assets/css/themes.css?v=37c8ab192a5f"><link rel="stylesheet" href="../../../../assets/css/uml.css?v=e677f91cbf66"><link rel="stylesheet" href="../../../../assets/css/avatars.css?v=7b30d540df9f"><script type="application/json" id="fa-declared-kinds">["beans","block-kinds","cat-harness","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","fsh-guts","glossary","health","ig-pages","issue-marks","l1-extraction","library","merge-reviews","methodology","qa","qa-checkers","scenarios","schemas","skills","themes","todos","tools","translation-sources","typologies","uploads","validators"]</script><script src="../../../../assets/js/harness-data.js" defer></script><script src="../../../../assets/js/kg-render.js" defer></script><script src="../../../../assets/js/navbar-row.js?v=fb3cd5c0d28c" defer></script>
-<script src="../../../../assets/js/docs-ui.js?v=480a3c3c0d42" defer></script><script src="../../../../assets/js/edit-links.js?v=7b072444cbb5" defer></script><script src="../../../../assets/js/translation-review.js?v=1902d883e072" defer></script><script src="../../../../assets/js/code-highlight.js?v=0f94772226c3" defer></script><style>
+<link rel="stylesheet" href="../../../../assets/css/docs-ui.css?v=a8dee3958f53"><link rel="stylesheet" href="../../../../assets/css/narrow-viewport.css?v=173ef819dbf2"><link rel="stylesheet" href="../../../../assets/css/themes.css?v=37c8ab192a5f"><link rel="stylesheet" href="../../../../assets/css/uml.css?v=e677f91cbf66"><link rel="stylesheet" href="../../../../assets/css/avatars.css?v=7b30d540df9f"><script type="application/json" id="fa-declared-kinds">["beans","block-kinds","cat-harness","code","code-list","content-adapters","docs","document-kinds","fhir-artifact-index","fsh-guts","glossary","health","ig-pages","issue-marks","l1-extraction","library","merge-reviews","methodology","qa","qa-checkers","scenarios","schemas","skills","themes","todos","tools","translation-sources","typologies","uploads","validators"]</script><script src="../../../../assets/js/harness-data.js" defer></script><script src="../../../../assets/js/kg-render.js" defer></script><script src="../../../../assets/js/navbar-row.js?v=fb3cd5c0d28c" defer></script>
+<script src="../../../../assets/js/docs-ui.js?v=cae1ad7ba8e7" defer></script><script src="../../../../assets/js/edit-links.js?v=7b072444cbb5" defer></script><script src="../../../../assets/js/translation-review.js?v=3ab638979d22" defer></script><script src="../../../../assets/js/code-highlight.js?v=0f94772226c3" defer></script><style>
   .folio-landing { position: relative; margin: 0 0 2rem; }
 
   /* WHAT IS LEFT HERE, AND WHY IT IS SO LITTLE.
@@ -161,7 +161,7 @@
   }
 </style>
 
-<link rel="stylesheet" href="../../../../assets/css/navbar.css"><script src="../../../../assets/navbar/rail-1zyk7vdcj84.js" defer></script><script src="../../../../assets/js/navbar.js" defer></script><link rel="stylesheet" href="../../../../assets/page-layout.css" data-fa-page-layout><script src="../../../../assets/page-layout.js" defer data-fa-page-layout></script><meta name="fa-pinned-data" content="../../../.."></head>
+<link rel="stylesheet" href="../../../../assets/css/navbar.css"><script src="../../../../assets/navbar/rail-1zyk7vdcj84.js" defer></script><script src="../../../../assets/js/navbar.js" defer></script><link rel="stylesheet" href="../../../../assets/page-layout.css" data-fa-page-layout><script src="../../../../assets/page-layout.js" defer data-fa-page-layout></script><script src="../../../../assets/draft-banner.js" defer data-fa-page-layout></script><noscript data-fa-draft-noscript><style>body::before{content:"DRAFT \2014  not an official publication";display:block;margin:0;padding:6px 16px;background:#b3261e;color:#fff;text-align:center;font:600 14px/1.5 system-ui,sans-serif}</style></noscript><meta name="fa-pinned-data" content="../../../.."></head>
 
 <body><script type="application/json" id="fa-rail" data-fa-root="https://litlfred.github.io/folio-assistant" data-fa-to-root="../../../..">{"data":"rail-1zyk7vdcj84","here":"/cat-harness/auto-docs/index/schemas/"}</script><nav class="fa-nav" aria-label="folio-assistant" data-fa-rail="pending"><a href="../../../../">WHO Family Planning Implementation Guide</a></nav>
   <a class="skip-to-main" href="#main-content">Skip to main content</a>
@@ -762,6 +762,10 @@
   <td>PROV activities as PROV-JSONLD — links, not strings.</td>
 </tr>
 <tr>
+  <td><a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/kg/publishing-profile.ts"><code>publishing-profile</code></a><br><span class="p">cat-harness-tools/schemas/kg/publishing-profile.ts</span></td>
+  <td>Where a layer's site and IRIs live, DERIVED from one shared publishing profile and two values the layer declares.</td>
+</tr>
+<tr>
   <td><a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/kg/qa-record-shapes.ts"><code>qa-record-shapes</code></a><br><span class="p">cat-harness-tools/schemas/kg/qa-record-shapes.ts</span></td>
   <td>The SHAPES of the record families the harness's <code>qa</code> and <code>lsi</code> graphs hold — <code>qa-witness/v1</code>, <code>qa-results/v1</code>, <code>translation-qa/v1</code>, <code>folio-lsi-index/v1</code>.</td>
 </tr>
@@ -776,6 +780,10 @@
 <tr>
   <td><a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/kg/repo-full-name.ts"><code>repo-full-name</code></a><br><span class="p">cat-harness-tools/schemas/kg/repo-full-name.ts</span></td>
   <td><code>owner/name</code> — a forge repository's full name, in its own module so a declaration schema can use it without importing the Tool type table (<code>tool-types.ts</code> imports <code>cat-harness.ts</code>, which would make the cycle).</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/kg/repo-owner.ts"><code>repo-owner</code></a><br><span class="p">cat-harness-tools/schemas/kg/repo-owner.ts</span></td>
+  <td>Who owns a checkout on GitHub, and how a SAME-OWNER repository name resolves.</td>
 </tr>
 <tr>
   <td><a href="https://github.com/litlfred/cat-harness-tools/blob/main/schemas/kg/semantic-zoom.ts"><code>semantic-zoom</code></a><br><span class="p">cat-harness-tools/schemas/kg/semantic-zoom.ts</span></td>
@@ -1342,10 +1350,6 @@
   <td>The <code>ig</code> content type: a repository declares itself the source of a FHIR implementation guide with <code>contentTypes.ig</code> in its root <code>index.config.json</code>.</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/ig-identity.ts"><code>ig-identity</code></a><br><span class="p">fhir-harness/schemas/ig-identity.ts</span></td>
-  <td>An IG's identity, as its own <code>sushi-config.yaml</code> states it — id, canonical, version and publication status — kept beside that IG's artefact index.</td>
-</tr>
-<tr>
   <td><a href="https://github.com/litlfred/fhir-harness/blob/main/schemas/ig-menu.ts"><code>ig-menu</code></a><br><span class="p">fhir-harness/schemas/ig-menu.ts</span></td>
   <td>ig-menu.ts — a FHIR IG's own navigation, as data.</td>
 </tr>
@@ -1599,7 +1603,7 @@
 </tr>
 <tr>
   <td><a href="https://github.com/litlfred/smart-base/blob/main/smart-base/schemas/site-roots.ts"><code>site-roots</code></a><br><span class="p">smart-base/schemas/site-roots.ts</span></td>
-  <td>Where smart-base and the layers built on it (smart-*, dth-*) live on GitHub, and where their sites are served — in ONE place, so the move to the WHO GitHub org is a one-line change here (litlfred/cat-harness-tools#1917).</td>
+  <td>Where smart-base and the layers built on it (smart-*, dth-*) live on GitHub, and where their sites are served.</td>
 </tr>
 </tbody>
 </table></div>

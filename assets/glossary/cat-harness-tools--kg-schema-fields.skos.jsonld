@@ -166,6 +166,25 @@
       "skos:note": "candidate"
     },
     {
+      "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/archimate.archimateconfigfigureschema.asdrawn",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "ArchimateConfigFigureSchema.asDrawn"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "The figure as the source publication drew it, redrawn as SVG, relative to the layer root. Present, the view's page offers a two-way switch, \"As drawn\" (this SVG, inlined so its links work; checked first) and \"ArchiMate\" (the model's view), and the site build copies the file beside the view's drawing as `<view id>.as-drawn.svg`. Its links resolve from the view's page, so `../../element/<slug>/` reaches an element. Absent, the page shows the model's view alone."
+        }
+      ],
+      "dcterms:source": "cat-harness-tools/archimate/schemas/archimate.ts#ArchimateConfigFigureSchema.asDrawn",
+      "skos:note": "candidate"
+    },
+    {
       "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/archimate.archimateconfigfigureschema.basis",
       "@type": "skos:Concept",
       "skos:inScheme": {
@@ -11354,6 +11373,25 @@
         }
       ],
       "dcterms:source": "cat-harness-tools/schemas/constraints.ts#ConstraintContext.fileExists",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/constraints.constraintcontext.foliolabels",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "ConstraintContext.folioLabels"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "The labels of every document in the same folio, keyed by document slug — what a cross-paper `<slug>:<label>` in `uses[]` / `foreshadows[]` resolves against. Absent when the caller did not build it; a cross-paper ref is then not judged, and the caller says so."
+        }
+      ],
+      "dcterms:source": "cat-harness-tools/schemas/constraints.ts#ConstraintContext.folioLabels",
       "skos:note": "candidate"
     },
     {
@@ -28951,6 +28989,120 @@
       "skos:note": "candidate"
     },
     {
+      "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/publishing-profile.layerpublishschema.id",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "LayerPublishSchema.id"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "The layer's path under `publishedRoot` (for an IG, the id in its canonical)."
+        }
+      ],
+      "dcterms:source": "cat-harness-tools/schemas/kg/publishing-profile.ts#LayerPublishSchema.id",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/publishing-profile.layerpublishschema.profile",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "LayerPublishSchema.profile"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "The profile file, checkout-relative (usually in a mounted layer)."
+        }
+      ],
+      "dcterms:source": "cat-harness-tools/schemas/kg/publishing-profile.ts#LayerPublishSchema.profile",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/publishing-profile.layerpublishschema.stage",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "LayerPublishSchema.stage"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "`staging` until the layer is published; then `published`."
+        }
+      ],
+      "dcterms:source": "cat-harness-tools/schemas/kg/publishing-profile.ts#LayerPublishSchema.stage",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/publishing-profile.publishingprofileschema.iriroot",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "PublishingProfileSchema.iriRoot"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "The fixed root IRIs are minted under while a layer is staged."
+        }
+      ],
+      "dcterms:source": "cat-harness-tools/schemas/kg/publishing-profile.ts#PublishingProfileSchema.iriRoot",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/publishing-profile.publishingprofileschema.publishedroot",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "PublishingProfileSchema.publishedRoot"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "The root a published layer's IRIs and site move to."
+        }
+      ],
+      "dcterms:source": "cat-harness-tools/schemas/kg/publishing-profile.ts#PublishingProfileSchema.publishedRoot",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/publishing-profile.publishingprofileschema.stagingroot",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "PublishingProfileSchema.stagingRoot"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "The checkout's own staging site root; `{owner}` is replaced by the checkout's owner."
+        }
+      ],
+      "dcterms:source": "cat-harness-tools/schemas/kg/publishing-profile.ts#PublishingProfileSchema.stagingRoot",
+      "skos:note": "candidate"
+    },
+    {
       "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/python-deps.pythondepschema.distribution",
       "@type": "skos:Concept",
       "skos:inScheme": {
@@ -31136,6 +31288,25 @@
       "skos:note": "candidate"
     },
     {
+      "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/remote-mount.mountlockschema.pinnedat",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "MountLockSchema.pinnedAt"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "When `mount:remote` wrote this content, pins included (UTC, ISO 8601, whole seconds): T, the time `lock:coherence:check` judges freshness against. A commit's date is not T: a squash merge dates the commit that carries the lock at the MERGE, so every layer main that moved between the re-pin and the merge read as \"moved before T\" and the pin as stale (merge-manager, 2026-11-17: three WHO syncs lost that race). Kept when a mount rewrites the same content, so a re-run does not churn the lock; written anew whenever anything else in it changes. The check accepts it only when it is no later than the commit that carries the lock and no earlier than any pin's own commit; optional so a lock written before it was recorded still parses."
+        }
+      ],
+      "dcterms:source": "cat-harness-tools/schemas/kg/remote-mount.ts#MountLockSchema.pinnedAt",
+      "skos:note": "candidate"
+    },
+    {
       "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/remote-mount.mountlockschema.unmounted",
       "@type": "skos:Concept",
       "skos:inScheme": {
@@ -31285,6 +31456,44 @@
         }
       ],
       "dcterms:source": "cat-harness-tools/schemas/kg/remote-mount.ts#RemoteMountSchema.overrides",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/remote-mount.remotemountschema.repository",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "RemoteMountSchema.repository"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "`owner/name`, or a bare `name`: a SAME-OWNER name, resolved to the owner of the checkout that declares it (`schemas/kg/repo-owner.ts`, cat-harness-tools#2337). Readers ({@link readMountLock}, `readDeclaredMounts`) hand callers the resolved `owner/name` with `sameOwner: true`; writers put the bare name back."
+        }
+      ],
+      "dcterms:source": "cat-harness-tools/schemas/kg/remote-mount.ts#RemoteMountSchema.repository",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/remote-mount.remotemountschema.sameowner",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "RemoteMountSchema.sameOwner"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "In memory: `repository` was declared without an owner. Accepted on disk; written as a bare name."
+        }
+      ],
+      "dcterms:source": "cat-harness-tools/schemas/kg/remote-mount.ts#RemoteMountSchema.sameOwner",
       "skos:note": "candidate"
     },
     {
@@ -47400,6 +47609,25 @@
       "skos:note": "candidate"
     },
     {
+      "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/workshop.questionschema.canvas",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "QuestionSchema.canvas"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "The canvas field that asks the same thing, `<sheet>:<field>[:<row>[:<col>]]` (`canvas.sheets`): the question then keeps its answer under that field's key, so the walkthrough, the lab and the canvas show one answer."
+        }
+      ],
+      "dcterms:source": "cat-harness-tools/schemas/process/workshop.ts#QuestionSchema.canvas",
+      "skos:note": "candidate"
+    },
+    {
       "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/workshop.tablerowschema.example",
       "@type": "skos:Concept",
       "skos:inScheme": {
@@ -47473,6 +47701,120 @@
         }
       ],
       "dcterms:source": "cat-harness-tools/schemas/process/workshop.ts#TableRowSchema.what",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/workshop.workshopcanvasschema.sheets",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "WorkshopCanvasSchema.sheets"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "The cover first, then the sheets, in order."
+        }
+      ],
+      "dcterms:source": "cat-harness-tools/schemas/process/workshop.ts#WorkshopCanvasSchema.sheets",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/workshop.workshopcanvasschema.size",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "WorkshopCanvasSchema.size"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "The paper of the PDF it is written out to; A3 landscape when absent."
+        }
+      ],
+      "dcterms:source": "cat-harness-tools/schemas/process/workshop.ts#WorkshopCanvasSchema.size",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/workshop.workshopcanvasschema.title",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "WorkshopCanvasSchema.title"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "What the canvas is called (\"Country Canvas\")."
+        }
+      ],
+      "dcterms:source": "cat-harness-tools/schemas/process/workshop.ts#WorkshopCanvasSchema.title",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/workshop.workshopcanvassheetschema.intro",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "WorkshopCanvasSheetSchema.intro"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "One line under the title: what the sheet is for."
+        }
+      ],
+      "dcterms:source": "cat-harness-tools/schemas/process/workshop.ts#WorkshopCanvasSheetSchema.intro",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/workshop.workshopcanvassheetschema.label",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "WorkshopCanvasSheetSchema.label"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "As the room calls it: \"Cover\", \"Sheet 3\"."
+        }
+      ],
+      "dcterms:source": "cat-harness-tools/schemas/process/workshop.ts#WorkshopCanvasSheetSchema.label",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/workshop.workshopcanvassheetschema.modules",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "WorkshopCanvasSheetSchema.modules"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "The modules whose journey questions are its annex (those not already one of its fields)."
+        }
+      ],
+      "dcterms:source": "cat-harness-tools/schemas/process/workshop.ts#WorkshopCanvasSheetSchema.modules",
       "skos:note": "candidate"
     },
     {
@@ -47552,6 +47894,25 @@
       "skos:note": "candidate"
     },
     {
+      "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/workshop.workshoplabstepschema.canvas",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "WorkshopLabStepSchema.canvas"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "Canvas sheets (`canvas.sheets[].id`) the step shows as the on-screen form."
+        }
+      ],
+      "dcterms:source": "cat-harness-tools/schemas/process/workshop.ts#WorkshopLabStepSchema.canvas",
+      "skos:note": "candidate"
+    },
+    {
       "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/workshop.workshoplabstepschema.discuss",
       "@type": "skos:Concept",
       "skos:inScheme": {
@@ -47606,6 +47967,25 @@
         }
       ],
       "dcterms:source": "cat-harness-tools/schemas/process/workshop.ts#WorkshopLabStepSchema.label",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/workshop.workshoplabstepschema.matrix",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "WorkshopLabStepSchema.matrix"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "The module × journey matrix: modules down, the workshop's steps across, ● where a module's question is asked, each cell linking to its step."
+        }
+      ],
+      "dcterms:source": "cat-harness-tools/schemas/process/workshop.ts#WorkshopLabStepSchema.matrix",
       "skos:note": "candidate"
     },
     {
@@ -47739,6 +48119,44 @@
         }
       ],
       "dcterms:source": "cat-harness-tools/schemas/process/workshop.ts#WorkshopLabStepSchema.useCases",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/workshop.workshopmatrixcellschema.step",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "WorkshopMatrixCellSchema.step"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "A step of the workshop: its step id (`J2b`), or `<scenario>#<step>`."
+        }
+      ],
+      "dcterms:source": "cat-harness-tools/schemas/process/workshop.ts#WorkshopMatrixCellSchema.step",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/workshop.workshopmatrixschema.intro",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "WorkshopMatrixSchema.intro"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "A line above the matrix."
+        }
+      ],
+      "dcterms:source": "cat-harness-tools/schemas/process/workshop.ts#WorkshopMatrixSchema.intro",
       "skos:note": "candidate"
     },
     {
@@ -48115,7 +48533,7 @@
       ],
       "skos:definition": [
         {
-          "@value": "The occasion, first on the frame's top bar (\"WHO Pre-GDHF Vignette\")."
+          "@value": "The occasion, first on the frame's top bar (\"Workshop vignette\")."
         }
       ],
       "dcterms:source": "cat-harness-tools/schemas/process/workshop.ts#WorkshopPresentationSchema.occasion",
@@ -48423,6 +48841,120 @@
         }
       ],
       "dcterms:source": "cat-harness-tools/schemas/process/workshop.ts#WorkshopSheetSchema.modules",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/workshop.workshopsheetssourceschema.description",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "WorkshopSheetsSourceSchema.description"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "One line under the title (what is in it, how to print it)."
+        }
+      ],
+      "dcterms:source": "cat-harness-tools/schemas/process/workshop.ts#WorkshopSheetsSourceSchema.description",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/workshop.workshopsheetssourceschema.docx",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "WorkshopSheetsSourceSchema.docx"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "The editable Word file."
+        }
+      ],
+      "dcterms:source": "cat-harness-tools/schemas/process/workshop.ts#WorkshopSheetsSourceSchema.docx",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/workshop.workshopsheetssourceschema.pdf",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "WorkshopSheetsSourceSchema.pdf"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "The print-ready PDF."
+        }
+      ],
+      "dcterms:source": "cat-harness-tools/schemas/process/workshop.ts#WorkshopSheetsSourceSchema.pdf",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/workshop.workshopsheetssourceschema.previews",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "WorkshopSheetsSourceSchema.previews"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "An image per page, in order (the cover first)."
+        }
+      ],
+      "dcterms:source": "cat-harness-tools/schemas/process/workshop.ts#WorkshopSheetsSourceSchema.previews",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/workshop.workshopsheetssourceschema.size",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "WorkshopSheetsSourceSchema.size"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "The paper the canvas is printed on, said beside the print button; A3 when absent."
+        }
+      ],
+      "dcterms:source": "cat-harness-tools/schemas/process/workshop.ts#WorkshopSheetsSourceSchema.size",
+      "skos:note": "candidate"
+    },
+    {
+      "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields/workshop.workshopsheetssourceschema.title",
+      "@type": "skos:Concept",
+      "skos:inScheme": {
+        "@id": "https://litlfred.github.io/folio-assistant/cat-harness-tools/ns/glossary/kg-schema-fields"
+      },
+      "skos:prefLabel": [
+        {
+          "@value": "WorkshopSheetsSourceSchema.title"
+        }
+      ],
+      "skos:definition": [
+        {
+          "@value": "What the canvas is called (\"Country Canvas\"); \"Table canvas\" when absent."
+        }
+      ],
+      "dcterms:source": "cat-harness-tools/schemas/process/workshop.ts#WorkshopSheetsSourceSchema.title",
       "skos:note": "candidate"
     },
     {

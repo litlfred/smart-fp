@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/"
+  },
+  "@id": "https://litlfred.github.io/smart-fp/en/cat-harness/harness/cat-harness/",
+  "url": "https://litlfred.github.io/smart-fp/en/cat-harness/harness/cat-harness/",
+  "@type": "WebPage",
+  "name": "C@T Harness on WHO Family Planning Implementation Guide",
+  "about": {
+    "@id": "https://litlfred.github.io/cat-harness/",
+    "@type": "SoftwareSourceCode",
+    "identifier": "cat-harness",
+    "name": "C@T Harness",
+    "description": "computable adjudication and agentic test harness\n\ncaaat-harness\n\nca&at-harness\n\n.c&at-harness\n\n c@t-harness",
+    "version": "0.1.0",
+    "codeRepository": "https://github.com/litlfred/cat-harness",
+    "isBasedOn": [
+      {
+        "@id": "https://litlfred.github.io/bootstrap/"
+      }
+    ],
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "name": "pinnedCommit",
+      "value": "9770b20ca6b34060fbbbc0e899a376bb710f424e"
+    },
+    "keywords": [
+      "docs"
+    ]
+  },
+  "isPartOf": {
+    "@id": "https://litlfred.github.io/smart-fp/",
+    "name": "WHO Family Planning Implementation Guide"
+  },
+  "significantLink": [
+    "https://litlfred.github.io/folio-assistant/#harness-cat-harness",
+    "https://github.com/litlfred/cat-harness/tree/9770b20ca6b34060fbbbc0e899a376bb710f424e",
+    "https://github.com/litlfred/cat-harness/blob/9770b20ca6b34060fbbbc0e899a376bb710f424e/README.md",
+    "https://github.com/litlfred/cat-harness/blob/9770b20ca6b34060fbbbc0e899a376bb710f424e/AGENTS.md"
+  ]
+}

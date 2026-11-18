@@ -299,6 +299,10 @@
     {
      "name": "dak-l1-library",
      "href": "../../../en/cat-harness/processes/skills/dak-l1-library.html"
+    },
+    {
+     "name": "guideline-gap-report",
+     "href": "../../../en/cat-harness/processes/skills/guideline-gap-report.html"
     }
    ],
    "role": {
@@ -536,9 +540,9 @@
     "diagram": "review-task.html"
    },
    "role": {
-    "name": "reviewer",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/reviewer",
-    "title": "Reviewer / SME",
+    "name": "adjudicator",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/adjudicator",
+    "title": "Adjudicator",
     "skills": [
      {
       "name": "adjudication",
@@ -546,11 +550,13 @@
      },
      {
       "name": "content-feedback",
-      "href": "../../../en/cat-harness/processes/skills/content-feedback.html"
+      "href": "../../../en/cat-harness/processes/skills/content-feedback.html",
+      "via": "reviewer"
      },
      {
       "name": "content-review",
-      "href": "../../../en/cat-harness/processes/skills/content-review.html"
+      "href": "../../../en/cat-harness/processes/skills/content-review.html",
+      "via": "reviewer"
      },
      {
       "name": "decision-audit",
@@ -558,27 +564,37 @@
      },
      {
       "name": "narrative-asserts-code",
-      "href": "../../../en/cat-harness/processes/skills/narrative-asserts-code.html"
+      "href": "../../../en/cat-harness/processes/skills/narrative-asserts-code.html",
+      "via": "reviewer"
      },
      {
       "name": "rendered-impact",
-      "href": "../../../en/cat-harness/processes/skills/rendered-impact.html"
+      "href": "../../../en/cat-harness/processes/skills/rendered-impact.html",
+      "via": "reviewer"
      },
      {
       "name": "staging-review",
-      "href": "../../../en/cat-harness/processes/skills/staging-review.html"
+      "href": "../../../en/cat-harness/processes/skills/staging-review.html",
+      "via": "reviewer"
      },
      {
       "name": "translation-manager",
-      "href": "../../../en/cat-harness/processes/skills/translation-manager.html"
+      "href": "../../../en/cat-harness/processes/skills/translation-manager.html",
+      "via": "reviewer"
+     },
+     {
+      "name": "untainted-verification",
+      "href": "../../../en/cat-harness/processes/skills/untainted-verification.html"
      },
      {
       "name": "visual-diff",
-      "href": "../../../en/cat-harness/processes/skills/visual-diff.html"
+      "href": "../../../en/cat-harness/processes/skills/visual-diff.html",
+      "via": "reviewer"
      },
      {
       "name": "voice-overlay-review",
-      "href": "../../../en/cat-harness/processes/skills/voice-overlay-review.html"
+      "href": "../../../en/cat-harness/processes/skills/voice-overlay-review.html",
+      "via": "reviewer"
      }
     ]
    }
@@ -605,6 +621,18 @@
     {
      "name": "dak-l1-library",
      "href": "../../../en/cat-harness/processes/skills/dak-l1-library.html"
+    },
+    {
+     "name": "figure-rebuild",
+     "href": "../../../en/cat-harness/processes/skills/figure-rebuild.html"
+    },
+    {
+     "name": "transcription-verbatim",
+     "href": "../../../en/cat-harness/processes/skills/transcription-verbatim.html"
+    },
+    {
+     "name": "guideline-gap-report",
+     "href": "../../../en/cat-harness/processes/skills/guideline-gap-report.html"
     }
    ],
    "role": {
@@ -852,9 +880,9 @@
     "diagram": "review-task.html"
    },
    "role": {
-    "name": "reviewer",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/reviewer",
-    "title": "Reviewer / SME",
+    "name": "adjudicator",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/adjudicator",
+    "title": "Adjudicator",
     "skills": [
      {
       "name": "adjudication",
@@ -862,11 +890,13 @@
      },
      {
       "name": "content-feedback",
-      "href": "../../../en/cat-harness/processes/skills/content-feedback.html"
+      "href": "../../../en/cat-harness/processes/skills/content-feedback.html",
+      "via": "reviewer"
      },
      {
       "name": "content-review",
-      "href": "../../../en/cat-harness/processes/skills/content-review.html"
+      "href": "../../../en/cat-harness/processes/skills/content-review.html",
+      "via": "reviewer"
      },
      {
       "name": "decision-audit",
@@ -874,27 +904,37 @@
      },
      {
       "name": "narrative-asserts-code",
-      "href": "../../../en/cat-harness/processes/skills/narrative-asserts-code.html"
+      "href": "../../../en/cat-harness/processes/skills/narrative-asserts-code.html",
+      "via": "reviewer"
      },
      {
       "name": "rendered-impact",
-      "href": "../../../en/cat-harness/processes/skills/rendered-impact.html"
+      "href": "../../../en/cat-harness/processes/skills/rendered-impact.html",
+      "via": "reviewer"
      },
      {
       "name": "staging-review",
-      "href": "../../../en/cat-harness/processes/skills/staging-review.html"
+      "href": "../../../en/cat-harness/processes/skills/staging-review.html",
+      "via": "reviewer"
      },
      {
       "name": "translation-manager",
-      "href": "../../../en/cat-harness/processes/skills/translation-manager.html"
+      "href": "../../../en/cat-harness/processes/skills/translation-manager.html",
+      "via": "reviewer"
+     },
+     {
+      "name": "untainted-verification",
+      "href": "../../../en/cat-harness/processes/skills/untainted-verification.html"
      },
      {
       "name": "visual-diff",
-      "href": "../../../en/cat-harness/processes/skills/visual-diff.html"
+      "href": "../../../en/cat-harness/processes/skills/visual-diff.html",
+      "via": "reviewer"
      },
      {
       "name": "voice-overlay-review",
-      "href": "../../../en/cat-harness/processes/skills/voice-overlay-review.html"
+      "href": "../../../en/cat-harness/processes/skills/voice-overlay-review.html",
+      "via": "reviewer"
      }
     ]
    }
@@ -919,6 +959,10 @@
     {
      "name": "decision-comparison",
      "href": "../../../en/cat-harness/processes/skills/decision-comparison.html"
+    },
+    {
+     "name": "guideline-gap-report",
+     "href": "../../../en/cat-harness/processes/skills/guideline-gap-report.html"
     }
    ],
    "role": {
@@ -1160,9 +1204,9 @@
     "diagram": "review-task.html"
    },
    "role": {
-    "name": "reviewer",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/reviewer",
-    "title": "Reviewer / SME",
+    "name": "adjudicator",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/adjudicator",
+    "title": "Adjudicator",
     "skills": [
      {
       "name": "adjudication",
@@ -1170,11 +1214,13 @@
      },
      {
       "name": "content-feedback",
-      "href": "../../../en/cat-harness/processes/skills/content-feedback.html"
+      "href": "../../../en/cat-harness/processes/skills/content-feedback.html",
+      "via": "reviewer"
      },
      {
       "name": "content-review",
-      "href": "../../../en/cat-harness/processes/skills/content-review.html"
+      "href": "../../../en/cat-harness/processes/skills/content-review.html",
+      "via": "reviewer"
      },
      {
       "name": "decision-audit",
@@ -1182,27 +1228,37 @@
      },
      {
       "name": "narrative-asserts-code",
-      "href": "../../../en/cat-harness/processes/skills/narrative-asserts-code.html"
+      "href": "../../../en/cat-harness/processes/skills/narrative-asserts-code.html",
+      "via": "reviewer"
      },
      {
       "name": "rendered-impact",
-      "href": "../../../en/cat-harness/processes/skills/rendered-impact.html"
+      "href": "../../../en/cat-harness/processes/skills/rendered-impact.html",
+      "via": "reviewer"
      },
      {
       "name": "staging-review",
-      "href": "../../../en/cat-harness/processes/skills/staging-review.html"
+      "href": "../../../en/cat-harness/processes/skills/staging-review.html",
+      "via": "reviewer"
      },
      {
       "name": "translation-manager",
-      "href": "../../../en/cat-harness/processes/skills/translation-manager.html"
+      "href": "../../../en/cat-harness/processes/skills/translation-manager.html",
+      "via": "reviewer"
+     },
+     {
+      "name": "untainted-verification",
+      "href": "../../../en/cat-harness/processes/skills/untainted-verification.html"
      },
      {
       "name": "visual-diff",
-      "href": "../../../en/cat-harness/processes/skills/visual-diff.html"
+      "href": "../../../en/cat-harness/processes/skills/visual-diff.html",
+      "via": "reviewer"
      },
      {
       "name": "voice-overlay-review",
-      "href": "../../../en/cat-harness/processes/skills/voice-overlay-review.html"
+      "href": "../../../en/cat-harness/processes/skills/voice-overlay-review.html",
+      "via": "reviewer"
      }
     ]
    }
@@ -1245,6 +1301,10 @@
     {
      "name": "feature-staging",
      "href": "../../../en/cat-harness/processes/skills/feature-staging.html"
+    },
+    {
+     "name": "guideline-gap-report",
+     "href": "../../../en/cat-harness/processes/skills/guideline-gap-report.html"
     }
    ],
    "role": {
@@ -1500,9 +1560,9 @@
     "diagram": "review-task.html"
    },
    "role": {
-    "name": "reviewer",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/reviewer",
-    "title": "Reviewer / SME",
+    "name": "adjudicator",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/adjudicator",
+    "title": "Adjudicator",
     "skills": [
      {
       "name": "adjudication",
@@ -1510,11 +1570,13 @@
      },
      {
       "name": "content-feedback",
-      "href": "../../../en/cat-harness/processes/skills/content-feedback.html"
+      "href": "../../../en/cat-harness/processes/skills/content-feedback.html",
+      "via": "reviewer"
      },
      {
       "name": "content-review",
-      "href": "../../../en/cat-harness/processes/skills/content-review.html"
+      "href": "../../../en/cat-harness/processes/skills/content-review.html",
+      "via": "reviewer"
      },
      {
       "name": "decision-audit",
@@ -1522,27 +1584,37 @@
      },
      {
       "name": "narrative-asserts-code",
-      "href": "../../../en/cat-harness/processes/skills/narrative-asserts-code.html"
+      "href": "../../../en/cat-harness/processes/skills/narrative-asserts-code.html",
+      "via": "reviewer"
      },
      {
       "name": "rendered-impact",
-      "href": "../../../en/cat-harness/processes/skills/rendered-impact.html"
+      "href": "../../../en/cat-harness/processes/skills/rendered-impact.html",
+      "via": "reviewer"
      },
      {
       "name": "staging-review",
-      "href": "../../../en/cat-harness/processes/skills/staging-review.html"
+      "href": "../../../en/cat-harness/processes/skills/staging-review.html",
+      "via": "reviewer"
      },
      {
       "name": "translation-manager",
-      "href": "../../../en/cat-harness/processes/skills/translation-manager.html"
+      "href": "../../../en/cat-harness/processes/skills/translation-manager.html",
+      "via": "reviewer"
+     },
+     {
+      "name": "untainted-verification",
+      "href": "../../../en/cat-harness/processes/skills/untainted-verification.html"
      },
      {
       "name": "visual-diff",
-      "href": "../../../en/cat-harness/processes/skills/visual-diff.html"
+      "href": "../../../en/cat-harness/processes/skills/visual-diff.html",
+      "via": "reviewer"
      },
      {
       "name": "voice-overlay-review",
-      "href": "../../../en/cat-harness/processes/skills/voice-overlay-review.html"
+      "href": "../../../en/cat-harness/processes/skills/voice-overlay-review.html",
+      "via": "reviewer"
      }
     ]
    }
@@ -1571,6 +1643,10 @@
     {
      "name": "decision-comparison",
      "href": "../../../en/cat-harness/processes/skills/decision-comparison.html"
+    },
+    {
+     "name": "guideline-gap-report",
+     "href": "../../../en/cat-harness/processes/skills/guideline-gap-report.html"
     }
    ],
    "role": {
@@ -1812,9 +1888,9 @@
     "diagram": "review-task.html"
    },
    "role": {
-    "name": "reviewer",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/reviewer",
-    "title": "Reviewer / SME",
+    "name": "adjudicator",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/adjudicator",
+    "title": "Adjudicator",
     "skills": [
      {
       "name": "adjudication",
@@ -1822,11 +1898,13 @@
      },
      {
       "name": "content-feedback",
-      "href": "../../../en/cat-harness/processes/skills/content-feedback.html"
+      "href": "../../../en/cat-harness/processes/skills/content-feedback.html",
+      "via": "reviewer"
      },
      {
       "name": "content-review",
-      "href": "../../../en/cat-harness/processes/skills/content-review.html"
+      "href": "../../../en/cat-harness/processes/skills/content-review.html",
+      "via": "reviewer"
      },
      {
       "name": "decision-audit",
@@ -1834,27 +1912,37 @@
      },
      {
       "name": "narrative-asserts-code",
-      "href": "../../../en/cat-harness/processes/skills/narrative-asserts-code.html"
+      "href": "../../../en/cat-harness/processes/skills/narrative-asserts-code.html",
+      "via": "reviewer"
      },
      {
       "name": "rendered-impact",
-      "href": "../../../en/cat-harness/processes/skills/rendered-impact.html"
+      "href": "../../../en/cat-harness/processes/skills/rendered-impact.html",
+      "via": "reviewer"
      },
      {
       "name": "staging-review",
-      "href": "../../../en/cat-harness/processes/skills/staging-review.html"
+      "href": "../../../en/cat-harness/processes/skills/staging-review.html",
+      "via": "reviewer"
      },
      {
       "name": "translation-manager",
-      "href": "../../../en/cat-harness/processes/skills/translation-manager.html"
+      "href": "../../../en/cat-harness/processes/skills/translation-manager.html",
+      "via": "reviewer"
+     },
+     {
+      "name": "untainted-verification",
+      "href": "../../../en/cat-harness/processes/skills/untainted-verification.html"
      },
      {
       "name": "visual-diff",
-      "href": "../../../en/cat-harness/processes/skills/visual-diff.html"
+      "href": "../../../en/cat-harness/processes/skills/visual-diff.html",
+      "via": "reviewer"
      },
      {
       "name": "voice-overlay-review",
-      "href": "../../../en/cat-harness/processes/skills/voice-overlay-review.html"
+      "href": "../../../en/cat-harness/processes/skills/voice-overlay-review.html",
+      "via": "reviewer"
      }
     ]
    }
@@ -2112,6 +2200,10 @@
     {
      "name": "feature-staging",
      "href": "../../../en/cat-harness/processes/skills/feature-staging.html"
+    },
+    {
+     "name": "guideline-gap-report",
+     "href": "../../../en/cat-harness/processes/skills/guideline-gap-report.html"
     }
    ],
    "role": {
@@ -2371,9 +2463,9 @@
     "diagram": "review-task.html"
    },
    "role": {
-    "name": "reviewer",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/reviewer",
-    "title": "Reviewer / SME",
+    "name": "adjudicator",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/adjudicator",
+    "title": "Adjudicator",
     "skills": [
      {
       "name": "adjudication",
@@ -2381,11 +2473,13 @@
      },
      {
       "name": "content-feedback",
-      "href": "../../../en/cat-harness/processes/skills/content-feedback.html"
+      "href": "../../../en/cat-harness/processes/skills/content-feedback.html",
+      "via": "reviewer"
      },
      {
       "name": "content-review",
-      "href": "../../../en/cat-harness/processes/skills/content-review.html"
+      "href": "../../../en/cat-harness/processes/skills/content-review.html",
+      "via": "reviewer"
      },
      {
       "name": "decision-audit",
@@ -2393,27 +2487,37 @@
      },
      {
       "name": "narrative-asserts-code",
-      "href": "../../../en/cat-harness/processes/skills/narrative-asserts-code.html"
+      "href": "../../../en/cat-harness/processes/skills/narrative-asserts-code.html",
+      "via": "reviewer"
      },
      {
       "name": "rendered-impact",
-      "href": "../../../en/cat-harness/processes/skills/rendered-impact.html"
+      "href": "../../../en/cat-harness/processes/skills/rendered-impact.html",
+      "via": "reviewer"
      },
      {
       "name": "staging-review",
-      "href": "../../../en/cat-harness/processes/skills/staging-review.html"
+      "href": "../../../en/cat-harness/processes/skills/staging-review.html",
+      "via": "reviewer"
      },
      {
       "name": "translation-manager",
-      "href": "../../../en/cat-harness/processes/skills/translation-manager.html"
+      "href": "../../../en/cat-harness/processes/skills/translation-manager.html",
+      "via": "reviewer"
+     },
+     {
+      "name": "untainted-verification",
+      "href": "../../../en/cat-harness/processes/skills/untainted-verification.html"
      },
      {
       "name": "visual-diff",
-      "href": "../../../en/cat-harness/processes/skills/visual-diff.html"
+      "href": "../../../en/cat-harness/processes/skills/visual-diff.html",
+      "via": "reviewer"
      },
      {
       "name": "voice-overlay-review",
-      "href": "../../../en/cat-harness/processes/skills/voice-overlay-review.html"
+      "href": "../../../en/cat-harness/processes/skills/voice-overlay-review.html",
+      "via": "reviewer"
      }
     ]
    }
@@ -2731,6 +2835,10 @@
     {
      "name": "l4-application-build",
      "href": "../../../en/cat-harness/processes/skills/l4-application-build.html"
+    },
+    {
+     "name": "guideline-gap-report",
+     "href": "../../../en/cat-harness/processes/skills/guideline-gap-report.html"
     }
    ],
    "role": {
@@ -2982,9 +3090,9 @@
     "diagram": "review-task.html"
    },
    "role": {
-    "name": "reviewer",
-    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/reviewer",
-    "title": "Reviewer / SME",
+    "name": "adjudicator",
+    "href": "https://litlfred.github.io/folio-assistant/cat-harness/role/adjudicator",
+    "title": "Adjudicator",
     "skills": [
      {
       "name": "adjudication",
@@ -2992,11 +3100,13 @@
      },
      {
       "name": "content-feedback",
-      "href": "../../../en/cat-harness/processes/skills/content-feedback.html"
+      "href": "../../../en/cat-harness/processes/skills/content-feedback.html",
+      "via": "reviewer"
      },
      {
       "name": "content-review",
-      "href": "../../../en/cat-harness/processes/skills/content-review.html"
+      "href": "../../../en/cat-harness/processes/skills/content-review.html",
+      "via": "reviewer"
      },
      {
       "name": "decision-audit",
@@ -3004,27 +3114,37 @@
      },
      {
       "name": "narrative-asserts-code",
-      "href": "../../../en/cat-harness/processes/skills/narrative-asserts-code.html"
+      "href": "../../../en/cat-harness/processes/skills/narrative-asserts-code.html",
+      "via": "reviewer"
      },
      {
       "name": "rendered-impact",
-      "href": "../../../en/cat-harness/processes/skills/rendered-impact.html"
+      "href": "../../../en/cat-harness/processes/skills/rendered-impact.html",
+      "via": "reviewer"
      },
      {
       "name": "staging-review",
-      "href": "../../../en/cat-harness/processes/skills/staging-review.html"
+      "href": "../../../en/cat-harness/processes/skills/staging-review.html",
+      "via": "reviewer"
      },
      {
       "name": "translation-manager",
-      "href": "../../../en/cat-harness/processes/skills/translation-manager.html"
+      "href": "../../../en/cat-harness/processes/skills/translation-manager.html",
+      "via": "reviewer"
+     },
+     {
+      "name": "untainted-verification",
+      "href": "../../../en/cat-harness/processes/skills/untainted-verification.html"
      },
      {
       "name": "visual-diff",
-      "href": "../../../en/cat-harness/processes/skills/visual-diff.html"
+      "href": "../../../en/cat-harness/processes/skills/visual-diff.html",
+      "via": "reviewer"
      },
      {
       "name": "voice-overlay-review",
-      "href": "../../../en/cat-harness/processes/skills/voice-overlay-review.html"
+      "href": "../../../en/cat-harness/processes/skills/voice-overlay-review.html",
+      "via": "reviewer"
      }
     ]
    }
